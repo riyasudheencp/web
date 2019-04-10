@@ -51,6 +51,6 @@ app.get('/home/contact',(req,res)=>{
     res.send('[{"name":"riyas",age:23}{"name":"nikhil""age":25}]');
 });
 
-app.listen(5000,()=>{
+app.listen(process.env.PORT || 5000,()=>{
     console.log('running stage')
 });
