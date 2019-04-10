@@ -20,7 +20,7 @@ console.log(name,adress,place,mobile,email);
 app.post('/login',(req,res)=>{
     var user=req.body.username;
     var pass=req.body.password;
-    if (user=="admin"&&pass=="1234"){
+    if (user=="admin" && pass=="1234"){
         res.send("succesfulle");
     }
         else{
@@ -31,6 +31,11 @@ app.post('/login',(req,res)=>{
        
 
 });
+app.post('/register',(req,res)=>{
+    var name=req.body.name;
+    var admno=req.body.admno;
+    var collage=req.body.collage;
+        res.send(name,admno,collage)
 app.get('/',(req,res)=>{
     res.render("index",{name:"riyas"});
 });
