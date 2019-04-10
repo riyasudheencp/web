@@ -35,7 +35,7 @@ app.post('/register',(req,res)=>{
     var name=req.body.name;
     var admno=req.body.admno;
     var collage=req.body.collage;
-        res.send(name,admno,collage);
+        res.send(name+admno+collage);
 });
 app.get('/',(req,res)=>{
     res.render("index",{name:"riyas"});
