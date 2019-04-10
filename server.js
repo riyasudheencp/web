@@ -31,12 +31,14 @@ app.post('/login',(req,res)=>{
        
 
 });
+
 app.post('/register',(req,res)=>{
-    var name=req.body.name;
-    var admno=req.body.admno;
-    var collage=req.body.collage;
-        res.send(name+admno+collage);
+    var getname=req.body.name;
+    var getadmno=req.body.admno;
+    var getcollage=req.body.collage;
+        res.send(getname+getadmno+getcollage);
 });
+
 app.get('/',(req,res)=>{
     res.render("index",{name:"riyas"});
 });
