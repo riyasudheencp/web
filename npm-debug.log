@@ -1,0 +1,2586 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'install', '-g', 'heroku' ]
+2 info using npm@1.3.10
+3 info using node@v0.10.25
+4 verbose cache add [ 'heroku', null ]
+5 verbose cache add name=undefined spec="heroku" args=["heroku",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'heroku',
+6 verbose parsed url   path: 'heroku',
+6 verbose parsed url   href: 'heroku' }
+7 silly lockFile 9aef5f5a-heroku heroku
+8 verbose lock heroku /home/ubuntu/.npm/9aef5f5a-heroku.lock
+9 silly lockFile 9aef5f5a-heroku heroku
+10 silly lockFile 9aef5f5a-heroku heroku
+11 verbose addNamed [ 'heroku', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 91601de1-heroku heroku@
+14 verbose lock heroku@ /home/ubuntu/.npm/91601de1-heroku.lock
+15 silly addNameRange { name: 'heroku', range: '*', hasData: false }
+16 verbose registry.get heroku not expired, no request
+17 silly addNameRange number 2 { name: 'heroku', range: '*', hasData: true }
+18 silly addNameRange versions [ 'heroku',
+18 silly addNameRange   [ '0.0.1',
+18 silly addNameRange     '0.0.2',
+18 silly addNameRange     '0.0.3',
+18 silly addNameRange     '0.0.4',
+18 silly addNameRange     '0.0.5',
+18 silly addNameRange     '0.0.6',
+18 silly addNameRange     '0.0.7',
+18 silly addNameRange     '0.1.0',
+18 silly addNameRange     '0.1.1',
+18 silly addNameRange     '0.1.2',
+18 silly addNameRange     '0.1.3',
+18 silly addNameRange     '0.2.0',
+18 silly addNameRange     '7.4.3',
+18 silly addNameRange     '7.4.4',
+18 silly addNameRange     '7.4.5',
+18 silly addNameRange     '7.4.6',
+18 silly addNameRange     '7.4.7',
+18 silly addNameRange     '7.4.8',
+18 silly addNameRange     '7.4.9',
+18 silly addNameRange     '7.4.10',
+18 silly addNameRange     '7.4.11',
+18 silly addNameRange     '7.5.0',
+18 silly addNameRange     '7.5.1',
+18 silly addNameRange     '7.5.2',
+18 silly addNameRange     '7.5.3',
+18 silly addNameRange     '7.5.4',
+18 silly addNameRange     '7.5.5',
+18 silly addNameRange     '7.5.6',
+18 silly addNameRange     '7.5.7',
+18 silly addNameRange     '7.5.8',
+18 silly addNameRange     '7.5.9',
+18 silly addNameRange     '7.5.10',
+18 silly addNameRange     '7.5.11',
+18 silly addNameRange     '7.6.0',
+18 silly addNameRange     '7.6.1',
+18 silly addNameRange     '7.7.0',
+18 silly addNameRange     '7.7.1',
+18 silly addNameRange     '7.7.2',
+18 silly addNameRange     '7.7.3',
+18 silly addNameRange     '7.7.4',
+18 silly addNameRange     '7.7.5',
+18 silly addNameRange     '7.7.6',
+18 silly addNameRange     '7.7.7',
+18 silly addNameRange     '7.7.8',
+18 silly addNameRange     '7.7.10',
+18 silly addNameRange     '7.8.0',
+18 silly addNameRange     '7.8.1',
+18 silly addNameRange     '7.9.0',
+18 silly addNameRange     '7.9.1',
+18 silly addNameRange     '7.9.2',
+18 silly addNameRange     '7.9.3',
+18 silly addNameRange     '7.9.4',
+18 silly addNameRange     '7.10.0',
+18 silly addNameRange     '7.10.1',
+18 silly addNameRange     '7.11.0',
+18 silly addNameRange     '7.12.0',
+18 silly addNameRange     '7.12.1',
+18 silly addNameRange     '7.12.2',
+18 silly addNameRange     '7.12.3',
+18 silly addNameRange     '7.12.4',
+18 silly addNameRange     '7.12.5',
+18 silly addNameRange     '7.12.6',
+18 silly addNameRange     '7.13.0',
+18 silly addNameRange     '7.14.0',
+18 silly addNameRange     '7.14.1',
+18 silly addNameRange     '7.14.2',
+18 silly addNameRange     '7.14.3',
+18 silly addNameRange     '7.14.4',
+18 silly addNameRange     '7.15.0',
+18 silly addNameRange     '7.15.1',
+18 silly addNameRange     '7.15.2',
+18 silly addNameRange     '7.16.0',
+18 silly addNameRange     '7.16.1',
+18 silly addNameRange     '7.16.3',
+18 silly addNameRange     '7.16.4',
+18 silly addNameRange     '7.16.5',
+18 silly addNameRange     '7.16.6',
+18 silly addNameRange     '7.16.7',
+18 silly addNameRange     '7.16.8',
+18 silly addNameRange     '7.17.0',
+18 silly addNameRange     '7.17.1',
+18 silly addNameRange     '7.17.2',
+18 silly addNameRange     '7.18.1',
+18 silly addNameRange     '7.18.2',
+18 silly addNameRange     '7.18.3',
+18 silly addNameRange     '7.18.4',
+18 silly addNameRange     '7.18.5',
+18 silly addNameRange     '7.18.6',
+18 silly addNameRange     '7.18.7',
+18 silly addNameRange     '7.18.8',
+18 silly addNameRange     '7.18.9',
+18 silly addNameRange     '7.18.10',
+18 silly addNameRange     '7.19.1',
+18 silly addNameRange     '7.19.2',
+18 silly addNameRange     '7.19.3',
+18 silly addNameRange     '7.19.4',
+18 silly addNameRange     '7.20.0',
+18 silly addNameRange     '7.20.1',
+18 silly addNameRange     '7.21.0',
+18 silly addNameRange     '7.22.0',
+18 silly addNameRange     '7.22.1',
+18 silly addNameRange     '7.22.2',
+18 silly addNameRange     '7.22.3',
+18 silly addNameRange     '7.22.4',
+18 silly addNameRange     '7.22.5',
+18 silly addNameRange     '7.22.6',
+18 silly addNameRange     '7.22.7',
+18 silly addNameRange     '7.22.8',
+18 silly addNameRange     '7.22.9' ] ]
+19 verbose addNamed [ 'heroku', '7.22.9' ]
+20 verbose addNamed [ '7.22.9', '7.22.9' ]
+21 silly lockFile a593d431-heroku-7-22-9 heroku@7.22.9
+22 verbose lock heroku@7.22.9 /home/ubuntu/.npm/a593d431-heroku-7-22-9.lock
+23 silly lockFile a593d431-heroku-7-22-9 heroku@7.22.9
+24 silly lockFile a593d431-heroku-7-22-9 heroku@7.22.9
+25 silly lockFile 91601de1-heroku heroku@
+26 silly lockFile 91601de1-heroku heroku@
+27 silly resolved [ { name: 'heroku',
+27 silly resolved     description: 'CLI to interact with Heroku',
+27 silly resolved     version: '7.22.9',
+27 silly resolved     author: { name: 'Jeff Dickey @jdxcode' },
+27 silly resolved     bin: { heroku: './bin/run' },
+27 silly resolved     bugs: { url: 'https://github.com/heroku/cli/issues' },
+27 silly resolved     dependencies:
+27 silly resolved      { '@heroku-cli/color': '1.1.14',
+27 silly resolved        '@heroku-cli/command': '^8.2.10',
+27 silly resolved        '@heroku-cli/plugin-addons-v5': '^7.22.5',
+27 silly resolved        '@heroku-cli/plugin-apps-v5': '^7.22.7',
+27 silly resolved        '@heroku-cli/plugin-auth': '^7.22.7',
+27 silly resolved        '@heroku-cli/plugin-autocomplete': '^7.22.7',
+27 silly resolved        '@heroku-cli/plugin-buildpacks': '^7.22.7',
+27 silly resolved        '@heroku-cli/plugin-certs': '^7.22.7',
+27 silly resolved        '@heroku-cli/plugin-certs-v5': '^7.22.5',
+27 silly resolved        '@heroku-cli/plugin-ci': '^7.22.8',
+27 silly resolved        '@heroku-cli/plugin-ci-v5': '^7.22.8',
+27 silly resolved        '@heroku-cli/plugin-config': '^7.22.7',
+27 silly resolved        '@heroku-cli/plugin-container-registry-v5': '^7.22.5',
+27 silly resolved        '@heroku-cli/plugin-git': '^7.22.7',
+27 silly resolved        '@heroku-cli/plugin-local-v5': '^7.22.7',
+27 silly resolved        '@heroku-cli/plugin-oauth-v5': '^7.22.5',
+27 silly resolved        '@heroku-cli/plugin-orgs-v5': '^7.22.7',
+27 silly resolved        '@heroku-cli/plugin-pg-v5': '^7.22.5',
+27 silly resolved        '@heroku-cli/plugin-pipelines-v5': '^7.22.7',
+27 silly resolved        '@heroku-cli/plugin-ps': '^7.22.7',
+27 silly resolved        '@heroku-cli/plugin-ps-exec': '2.3.5',
+27 silly resolved        '@heroku-cli/plugin-redis-v5': '^7.22.8',
+27 silly resolved        '@heroku-cli/plugin-run-v5': '^7.22.8',
+27 silly resolved        '@heroku-cli/plugin-spaces': '^7.22.7',
+27 silly resolved        '@heroku-cli/plugin-status': '^7.22.7',
+27 silly resolved        '@heroku-cli/plugin-webhooks-v5': '^7.22.7',
+27 silly resolved        '@oclif/command': '1.5.11',
+27 silly resolved        '@oclif/config': '1.12.10',
+27 silly resolved        '@oclif/errors': '1.2.2',
+27 silly resolved        '@oclif/plugin-commands': '^1.2.2',
+27 silly resolved        '@oclif/plugin-help': '2.1.6',
+27 silly resolved        '@oclif/plugin-legacy': '1.1.4',
+27 silly resolved        '@oclif/plugin-not-found': '1.2.2',
+27 silly resolved        '@oclif/plugin-plugins': '1.7.7',
+27 silly resolved        '@oclif/plugin-update': '1.3.9',
+27 silly resolved        '@oclif/plugin-warn-if-update-available': '1.7.0',
+27 silly resolved        '@oclif/plugin-which': '1.0.3',
+27 silly resolved        'cli-ux': '4.9.3',
+27 silly resolved        debug: '4.1.1',
+27 silly resolved        execa: '1.0.0',
+27 silly resolved        'fs-extra': '7.0.1',
+27 silly resolved        'http-call': '5.2.3',
+27 silly resolved        'netrc-parser': '3.1.6',
+27 silly resolved        semver: '5.6.0',
+27 silly resolved        tslib: '1.9.3',
+27 silly resolved        uuid: '3.3.2' },
+27 silly resolved     devDependencies:
+27 silly resolved      { '@oclif/dev-cli': '^1.21.3',
+27 silly resolved        '@oclif/test': '^1.2.4',
+27 silly resolved        '@oclif/tslint': '^3.1.1',
+27 silly resolved        '@types/ansi-styles': '^3.2.1',
+27 silly resolved        '@types/chai': '^4.1.7',
+27 silly resolved        '@types/debug': '^4.1.2',
+27 silly resolved        '@types/execa': '^0.9.0',
+27 silly resolved        '@types/fs-extra': '^5.0.5',
+27 silly resolved        '@types/glob': '^7.1.1',
+27 silly resolved        '@types/lodash': '^4.14.123',
+27 silly resolved        '@types/mocha': '^5.2.6',
+27 silly resolved        '@types/nock': '^9.3.1',
+27 silly resolved        '@types/node': '^10.12.24',
+27 silly resolved        '@types/supports-color': '^5.3.0',
+27 silly resolved        '@types/write-json-file': '^2.2.1',
+27 silly resolved        'aws-sdk': '^2.421.0',
+27 silly resolved        chai: '^4.2.0',
+27 silly resolved        lerna: '^3.13.1',
+27 silly resolved        lodash: '^4.17.11',
+27 silly resolved        mocha: '^5.2.0',
+27 silly resolved        nock: '^10.0.6',
+27 silly resolved        qqjs: '^0.3.10',
+27 silly resolved        'read-pkg': '^4.0.1',
+27 silly resolved        sinon: '^7.2.4',
+27 silly resolved        'ts-node': '^8.0.2',
+27 silly resolved        tslint: '^5.11.0',
+27 silly resolved        typescript: '3.3.3333' },
+27 silly resolved     engines: { node: '>=8.3.0' },
+27 silly resolved     files:
+27 silly resolved      [ '/oclif.manifest.json',
+27 silly resolved        '/bin',
+27 silly resolved        '/lib',
+27 silly resolved        '/npm-shrinkwrap.json',
+27 silly resolved        '/yarn.lock' ],
+27 silly resolved     homepage: 'https://cli.heroku.com',
+27 silly resolved     keywords: [ 'heroku', 'heroku-cli-plugin' ],
+27 silly resolved     license: 'ISC',
+27 silly resolved     main: 'lib/index.js',
+27 silly resolved     oclif:
+27 silly resolved      { commands: './lib/commands',
+27 silly resolved        plugins: [Object],
+27 silly resolved        bin: 'heroku',
+27 silly resolved        dirname: 'heroku',
+27 silly resolved        scope: 'heroku-cli',
+27 silly resolved        npmRegistry: 'https://registry.npmjs.org',
+27 silly resolved        macos: [Object],
+27 silly resolved        topics: [Object],
+27 silly resolved        hooks: [Object],
+27 silly resolved        update: [Object],
+27 silly resolved        aliases: [Object] },
+27 silly resolved     repository: { type: 'git', url: 'git://github.com/heroku/cli' },
+27 silly resolved     scripts:
+27 silly resolved      { build: 'rm -rf lib && tsc',
+27 silly resolved        postpublish: 'rm -f oclif.manifest.json',
+27 silly resolved        posttest: 'tsc -p test --noEmit && tslint -p test -t stylish',
+27 silly resolved        prepack: 'yarn run build && oclif-dev manifest',
+27 silly resolved        test: 'mocha --forbid-only "test/**/*.test.ts"',
+27 silly resolved        version: 'oclif-dev readme --multi && git add README.md ../../docs' },
+27 silly resolved     types: 'lib/index.d.ts',
+27 silly resolved     gitHead: '60d779b6fbfca43a0190c69f9d0f5900cc04593a',
+27 silly resolved     readme: 'Heroku CLI\n==========\n\n![Heroku logo](https://d4yt8xl9b7in.cloudfront.net/assets/home/logotype-heroku.png)\n\n[![Circle CI](https://circleci.com/gh/heroku/cli/tree/master.svg?style=svg)](https://circleci.com/gh/heroku/cli/tree/master)\n[![Build status](https://ci.appveyor.com/api/projects/status/ouee3b9d7jwkjcr1/branch/master?svg=true)](https://ci.appveyor.com/project/Heroku/cli/branch/master)\n[![CircleCI](https://circleci.com/gh/heroku/cli-macos-installer/tree/master.svg?style=svg&circle-token=90b3b4392dc1668e97108edabdfc2c6baddc3a17)](https://circleci.com/gh/heroku/cli-macos-installer/tree/master)\n[![Snap Status](https://build.snapcraft.io/badge/heroku/cli.svg)](https://build.snapcraft.io/user/heroku/cli)\n[![ISC License](https://img.shields.io/github/license/heroku/cli.svg)](https://github.com/heroku/cli/blob/master/LICENSE)\n[![npm](https://img.shields.io/npm/v/heroku.svg)](https://www.npmjs.com/package/heroku)\n\nThe Heroku CLI is used to manage Heroku apps from the command line. It is built using [oclif](https://oclif.io).\n\nFor more about Heroku see <https://www.heroku.com/home>\n\nTo get started see <https://devcenter.heroku.com/start>\n\nOverview\n========\n\nThis is the next generation Node-based Heroku CLI.  The goals of this project were to make plugins more flexible, remove Ruby as a runtime dependency, and make the CLI faster.\n\nIt has identical functionality to the old Ruby CLI. Under the hood, it is a modular CLI made up of node.js plugins.\n\nFor more on developing plugins, read [Developing CLI Plugins](https://devcenter.heroku.com/articles/developing-cli-plugins)\n\nIssues\n======\n\nFor problems directly related to the CLI, [add an issue on GitHub](https://github.com/heroku/cli/issues/new).\n\nFor other issues, [submit a support ticket](https://help.heroku.com/).\n\n[Contributors](https://github.com/heroku/cli/contributors)\n\n<!-- commands -->\n# Command Topics\n\n* [`heroku access`](docs/access.md) - manage user access to apps\n* [`heroku addons`](docs/addons.md) - tools and services for developing, extending, and operating your app\n* [`heroku apps`](docs/apps.md) - manage apps on Heroku\n* [`heroku auth`](docs/auth.md) - check 2fa status\n* [`heroku authorizations`](docs/authorizations.md) - OAuth authorizations\n* [`heroku autocomplete`](docs/autocomplete.md) - display autocomplete installation instructions\n* [`heroku buildpacks`](docs/buildpacks.md) - scripts used to compile apps\n* [`heroku certs`](docs/certs.md) - a topic for the ssl plugin\n* [`heroku ci`](docs/ci.md) - run an application test suite on Heroku\n* [`heroku clients`](docs/clients.md) - OAuth clients on the platform\n* [`heroku config`](docs/config.md) - environment variables of apps\n* [`heroku container`](docs/container.md) - Use containers to build and deploy Heroku apps\n* [`heroku domains`](docs/domains.md) - custom domains for apps\n* [`heroku drains`](docs/drains.md) - forward logs to syslog or HTTPS\n* [`heroku features`](docs/features.md) - add/remove app features\n* [`heroku git`](docs/git.md) - manage local git repository for app\n* [`heroku help`](docs/help.md) - display help for heroku\n* [`heroku keys`](docs/keys.md) - add/remove account ssh keys\n* [`heroku labs`](docs/labs.md) - add/remove experimental features\n* [`heroku local`](docs/local.md) - run heroku app locally\n* [`heroku logs`](docs/logs.md) - display recent log output\n* [`heroku maintenance`](docs/maintenance.md) - enable/disable access to app\n* [`heroku members`](docs/members.md) - manage organization members\n* [`heroku notifications`](docs/notifications.md) - display notifications\n* [`heroku orgs`](docs/orgs.md) - manage organizations\n* [`heroku pg`](docs/pg.md) - manage postgresql databases\n* [`heroku pipelines`](docs/pipelines.md) - groups of apps that share the same codebase\n* [`heroku plugins`](docs/plugins.md) - list installed plugins\n* [`heroku ps`](docs/ps.md) - Client tools for Heroku Exec\n* [`heroku psql`](docs/psql.md) - open a psql shell to the database\n* [`heroku redis`](docs/redis.md) - manage heroku redis instances\n* [`heroku regions`](docs/regions.md) - list available regions for deployment\n* [`heroku releases`](docs/releases.md) - display the releases for an app\n* [`heroku reviewapps`](docs/reviewapps.md) - disposable apps built on GitHub pull requests\n* [`heroku run`](docs/run.md) - run a one-off process inside a Heroku dyno\n* [`heroku sessions`](docs/sessions.md) - OAuth sessions\n* [`heroku spaces`](docs/spaces.md) - manage heroku private spaces\n* [`heroku status`](docs/status.md) - status of the Heroku platform\n* [`heroku teams`](docs/teams.md) - manage teams\n* [`heroku update`](docs/update.md) - update the Heroku CLI\n* [`heroku webhooks`](docs/webhooks.md) - setup HTTP notifications of app activity\n\n<!-- commandsstop -->\n\nDeveloping\n==========\n\nThis project is built with [lerna](http://lernajs.io). The core plugins are located in [./packages](./packages). Run `lerna bootstrap` after cloning the repository to set it up.\n\nTo cut a release, simply run `lerna publish` and it will create a CHANGELOG from the pending commits using [Conventional Commits](http://conventionalcommits.org). CircleCI will run the jobs to publish the CLI once it receives the git tag.\n\nReview our [PR guidelines](./.github/PULL_REQUEST_TEMPLATE.md).\n',
+27 silly resolved     readmeFilename: 'README.md',
+27 silly resolved     _id: 'heroku@7.22.9',
+27 silly resolved     _from: 'heroku@' } ]
+28 info install heroku@7.22.9 into /usr/local/lib
+29 info installOne heroku@7.22.9
+30 warn engine heroku@7.22.9: wanted: {"node":">=8.3.0"} (current: {"node":"v0.10.25","npm":"1.3.10"})
+31 info /usr/local/lib/node_modules/heroku unbuild
+32 verbose tar unpack /home/ubuntu/.npm/heroku/7.22.9/package.tgz
+33 silly lockFile 60ca2abb-sr-local-lib-node-modules-heroku tar:///usr/local/lib/node_modules/heroku
+34 verbose lock tar:///usr/local/lib/node_modules/heroku /home/ubuntu/.npm/60ca2abb-sr-local-lib-node-modules-heroku.lock
+35 silly lockFile 688fddad-tu-npm-heroku-7-22-9-package-tgz tar:///home/ubuntu/.npm/heroku/7.22.9/package.tgz
+36 verbose lock tar:///home/ubuntu/.npm/heroku/7.22.9/package.tgz /home/ubuntu/.npm/688fddad-tu-npm-heroku-7-22-9-package-tgz.lock
+37 silly gunzTarPerm modes [ '755', '644' ]
+38 silly gunzTarPerm extractEntry package.json
+39 silly gunzTarPerm extractEntry README.md
+40 silly gunzTarPerm extractEntry bin/run
+41 silly gunzTarPerm extractEntry bin/run.cmd
+42 silly gunzTarPerm extractEntry lib/user-config.js
+43 silly gunzTarPerm extractEntry lib/index.js
+44 silly gunzTarPerm extractEntry lib/deps.js
+45 silly gunzTarPerm extractEntry lib/analytics.js
+46 silly gunzTarPerm extractEntry lib/file.js
+47 silly gunzTarPerm extractEntry lib/file.d.ts
+48 silly gunzTarPerm extractEntry lib/hooks/init/version.js
+49 silly gunzTarPerm extractEntry lib/hooks/init/version.d.ts
+50 silly gunzTarPerm extractEntry lib/hooks/prerun/analytics.js
+51 silly gunzTarPerm extractEntry lib/hooks/prerun/analytics.d.ts
+52 silly gunzTarPerm extractEntry lib/hooks/update/b.js
+53 silly gunzTarPerm extractEntry lib/hooks/update/brew.js
+54 silly gunzTarPerm extractEntry lib/hooks/update/completions.js
+55 silly gunzTarPerm extractEntry lib/hooks/update/plugin-migrate.js
+56 silly gunzTarPerm extractEntry lib/hooks/update/tidy.js
+57 silly gunzTarPerm extractEntry lib/hooks/update/b.d.ts
+58 silly gunzTarPerm extractEntry lib/hooks/update/brew.d.ts
+59 silly gunzTarPerm extractEntry lib/hooks/update/completions.d.ts
+60 silly gunzTarPerm extractEntry lib/hooks/update/plugin-migrate.d.ts
+61 silly gunzTarPerm extractEntry lib/hooks/update/tidy.d.ts
+62 silly gunzTarPerm extractEntry lib/index.d.ts
+63 silly gunzTarPerm extractEntry lib/deps.d.ts
+64 silly gunzTarPerm extractEntry lib/user-config.d.ts
+65 silly gunzTarPerm extractEntry lib/analytics.d.ts
+66 silly gunzTarPerm extractEntry oclif.manifest.json
+67 silly lockFile 60ca2abb-sr-local-lib-node-modules-heroku tar:///usr/local/lib/node_modules/heroku
+68 silly lockFile 60ca2abb-sr-local-lib-node-modules-heroku tar:///usr/local/lib/node_modules/heroku
+69 silly lockFile 688fddad-tu-npm-heroku-7-22-9-package-tgz tar:///home/ubuntu/.npm/heroku/7.22.9/package.tgz
+70 silly lockFile 688fddad-tu-npm-heroku-7-22-9-package-tgz tar:///home/ubuntu/.npm/heroku/7.22.9/package.tgz
+71 info preinstall heroku@7.22.9
+72 verbose readDependencies using package.json deps
+73 verbose readDependencies using package.json deps
+74 verbose cache add [ '@heroku-cli/color@1.1.14', null ]
+75 verbose cache add name=undefined spec="@heroku-cli/color@1.1.14" args=["@heroku-cli/color@1.1.14",null]
+76 verbose parsed url { protocol: null,
+76 verbose parsed url   slashes: null,
+76 verbose parsed url   auth: null,
+76 verbose parsed url   host: null,
+76 verbose parsed url   port: null,
+76 verbose parsed url   hostname: null,
+76 verbose parsed url   hash: null,
+76 verbose parsed url   search: null,
+76 verbose parsed url   query: null,
+76 verbose parsed url   pathname: '@heroku-cli/color@1.1.14',
+76 verbose parsed url   path: '@heroku-cli/color@1.1.14',
+76 verbose parsed url   href: '@heroku-cli/color@1.1.14' }
+77 verbose cache add name="" spec="heroku-cli/color@1.1.14" args=["","heroku-cli/color@1.1.14"]
+78 verbose parsed url { protocol: null,
+78 verbose parsed url   slashes: null,
+78 verbose parsed url   auth: null,
+78 verbose parsed url   host: null,
+78 verbose parsed url   port: null,
+78 verbose parsed url   hostname: null,
+78 verbose parsed url   hash: null,
+78 verbose parsed url   search: null,
+78 verbose parsed url   query: null,
+78 verbose parsed url   pathname: 'heroku-cli/color@1.1.14',
+78 verbose parsed url   path: 'heroku-cli/color@1.1.14',
+78 verbose parsed url   href: 'heroku-cli/color@1.1.14' }
+79 verbose cache add name="heroku-cli/color" spec="1.1.14" args=["heroku-cli/color","1.1.14"]
+80 verbose parsed url { protocol: null,
+80 verbose parsed url   slashes: null,
+80 verbose parsed url   auth: null,
+80 verbose parsed url   host: null,
+80 verbose parsed url   port: null,
+80 verbose parsed url   hostname: null,
+80 verbose parsed url   hash: null,
+80 verbose parsed url   search: null,
+80 verbose parsed url   query: null,
+80 verbose parsed url   pathname: '1.1.14',
+80 verbose parsed url   path: '1.1.14',
+80 verbose parsed url   href: '1.1.14' }
+81 verbose addNamed [ 'heroku-cli/color', '1.1.14' ]
+82 verbose addNamed [ '1.1.14', '1.1.14' ]
+83 silly lockFile 5441f1a0-heroku-cli-color-1-1-14 heroku-cli/color@1.1.14
+84 verbose lock heroku-cli/color@1.1.14 /home/ubuntu/.npm/5441f1a0-heroku-cli-color-1-1-14.lock
+85 verbose cache add [ '@heroku-cli/command@^8.2.10', null ]
+86 verbose cache add name=undefined spec="@heroku-cli/command@^8.2.10" args=["@heroku-cli/command@^8.2.10",null]
+87 verbose parsed url { protocol: null,
+87 verbose parsed url   slashes: null,
+87 verbose parsed url   auth: null,
+87 verbose parsed url   host: null,
+87 verbose parsed url   port: null,
+87 verbose parsed url   hostname: null,
+87 verbose parsed url   hash: null,
+87 verbose parsed url   search: null,
+87 verbose parsed url   query: null,
+87 verbose parsed url   pathname: '@heroku-cli/command@^8.2.10',
+87 verbose parsed url   path: '@heroku-cli/command@^8.2.10',
+87 verbose parsed url   href: '@heroku-cli/command@^8.2.10' }
+88 verbose cache add name="" spec="heroku-cli/command@^8.2.10" args=["","heroku-cli/command@^8.2.10"]
+89 verbose parsed url { protocol: null,
+89 verbose parsed url   slashes: null,
+89 verbose parsed url   auth: null,
+89 verbose parsed url   host: null,
+89 verbose parsed url   port: null,
+89 verbose parsed url   hostname: null,
+89 verbose parsed url   hash: null,
+89 verbose parsed url   search: null,
+89 verbose parsed url   query: null,
+89 verbose parsed url   pathname: 'heroku-cli/command@^8.2.10',
+89 verbose parsed url   path: 'heroku-cli/command@^8.2.10',
+89 verbose parsed url   href: 'heroku-cli/command@^8.2.10' }
+90 verbose cache add name="heroku-cli/command" spec="^8.2.10" args=["heroku-cli/command","^8.2.10"]
+91 verbose parsed url { protocol: null,
+91 verbose parsed url   slashes: null,
+91 verbose parsed url   auth: null,
+91 verbose parsed url   host: null,
+91 verbose parsed url   port: null,
+91 verbose parsed url   hostname: null,
+91 verbose parsed url   hash: null,
+91 verbose parsed url   search: null,
+91 verbose parsed url   query: null,
+91 verbose parsed url   pathname: '^8.2.10',
+91 verbose parsed url   path: '^8.2.10',
+91 verbose parsed url   href: '^8.2.10' }
+92 verbose addNamed [ 'heroku-cli/command', '^8.2.10' ]
+93 verbose addNamed [ null, '>=8.2.10-0 <9.0.0-0' ]
+94 silly lockFile 57fac4a9-heroku-cli-command-8-2-10 heroku-cli/command@^8.2.10
+95 verbose lock heroku-cli/command@^8.2.10 /home/ubuntu/.npm/57fac4a9-heroku-cli-command-8-2-10.lock
+96 verbose cache add [ '@heroku-cli/plugin-addons-v5@^7.22.5', null ]
+97 verbose cache add name=undefined spec="@heroku-cli/plugin-addons-v5@^7.22.5" args=["@heroku-cli/plugin-addons-v5@^7.22.5",null]
+98 verbose parsed url { protocol: null,
+98 verbose parsed url   slashes: null,
+98 verbose parsed url   auth: null,
+98 verbose parsed url   host: null,
+98 verbose parsed url   port: null,
+98 verbose parsed url   hostname: null,
+98 verbose parsed url   hash: null,
+98 verbose parsed url   search: null,
+98 verbose parsed url   query: null,
+98 verbose parsed url   pathname: '@heroku-cli/plugin-addons-v5@^7.22.5',
+98 verbose parsed url   path: '@heroku-cli/plugin-addons-v5@^7.22.5',
+98 verbose parsed url   href: '@heroku-cli/plugin-addons-v5@^7.22.5' }
+99 verbose cache add name="" spec="heroku-cli/plugin-addons-v5@^7.22.5" args=["","heroku-cli/plugin-addons-v5@^7.22.5"]
+100 verbose parsed url { protocol: null,
+100 verbose parsed url   slashes: null,
+100 verbose parsed url   auth: null,
+100 verbose parsed url   host: null,
+100 verbose parsed url   port: null,
+100 verbose parsed url   hostname: null,
+100 verbose parsed url   hash: null,
+100 verbose parsed url   search: null,
+100 verbose parsed url   query: null,
+100 verbose parsed url   pathname: 'heroku-cli/plugin-addons-v5@^7.22.5',
+100 verbose parsed url   path: 'heroku-cli/plugin-addons-v5@^7.22.5',
+100 verbose parsed url   href: 'heroku-cli/plugin-addons-v5@^7.22.5' }
+101 verbose cache add name="heroku-cli/plugin-addons-v5" spec="^7.22.5" args=["heroku-cli/plugin-addons-v5","^7.22.5"]
+102 verbose parsed url { protocol: null,
+102 verbose parsed url   slashes: null,
+102 verbose parsed url   auth: null,
+102 verbose parsed url   host: null,
+102 verbose parsed url   port: null,
+102 verbose parsed url   hostname: null,
+102 verbose parsed url   hash: null,
+102 verbose parsed url   search: null,
+102 verbose parsed url   query: null,
+102 verbose parsed url   pathname: '^7.22.5',
+102 verbose parsed url   path: '^7.22.5',
+102 verbose parsed url   href: '^7.22.5' }
+103 verbose addNamed [ 'heroku-cli/plugin-addons-v5', '^7.22.5' ]
+104 verbose addNamed [ null, '>=7.22.5-0 <8.0.0-0' ]
+105 silly lockFile d327bf61-roku-cli-plugin-addons-v5-7-22-5 heroku-cli/plugin-addons-v5@^7.22.5
+106 verbose lock heroku-cli/plugin-addons-v5@^7.22.5 /home/ubuntu/.npm/d327bf61-roku-cli-plugin-addons-v5-7-22-5.lock
+107 verbose cache add [ '@heroku-cli/plugin-apps-v5@^7.22.7', null ]
+108 verbose cache add name=undefined spec="@heroku-cli/plugin-apps-v5@^7.22.7" args=["@heroku-cli/plugin-apps-v5@^7.22.7",null]
+109 verbose parsed url { protocol: null,
+109 verbose parsed url   slashes: null,
+109 verbose parsed url   auth: null,
+109 verbose parsed url   host: null,
+109 verbose parsed url   port: null,
+109 verbose parsed url   hostname: null,
+109 verbose parsed url   hash: null,
+109 verbose parsed url   search: null,
+109 verbose parsed url   query: null,
+109 verbose parsed url   pathname: '@heroku-cli/plugin-apps-v5@^7.22.7',
+109 verbose parsed url   path: '@heroku-cli/plugin-apps-v5@^7.22.7',
+109 verbose parsed url   href: '@heroku-cli/plugin-apps-v5@^7.22.7' }
+110 verbose cache add name="" spec="heroku-cli/plugin-apps-v5@^7.22.7" args=["","heroku-cli/plugin-apps-v5@^7.22.7"]
+111 verbose parsed url { protocol: null,
+111 verbose parsed url   slashes: null,
+111 verbose parsed url   auth: null,
+111 verbose parsed url   host: null,
+111 verbose parsed url   port: null,
+111 verbose parsed url   hostname: null,
+111 verbose parsed url   hash: null,
+111 verbose parsed url   search: null,
+111 verbose parsed url   query: null,
+111 verbose parsed url   pathname: 'heroku-cli/plugin-apps-v5@^7.22.7',
+111 verbose parsed url   path: 'heroku-cli/plugin-apps-v5@^7.22.7',
+111 verbose parsed url   href: 'heroku-cli/plugin-apps-v5@^7.22.7' }
+112 verbose cache add name="heroku-cli/plugin-apps-v5" spec="^7.22.7" args=["heroku-cli/plugin-apps-v5","^7.22.7"]
+113 verbose parsed url { protocol: null,
+113 verbose parsed url   slashes: null,
+113 verbose parsed url   auth: null,
+113 verbose parsed url   host: null,
+113 verbose parsed url   port: null,
+113 verbose parsed url   hostname: null,
+113 verbose parsed url   hash: null,
+113 verbose parsed url   search: null,
+113 verbose parsed url   query: null,
+113 verbose parsed url   pathname: '^7.22.7',
+113 verbose parsed url   path: '^7.22.7',
+113 verbose parsed url   href: '^7.22.7' }
+114 verbose addNamed [ 'heroku-cli/plugin-apps-v5', '^7.22.7' ]
+115 verbose addNamed [ null, '>=7.22.7-0 <8.0.0-0' ]
+116 silly lockFile b5f88caa-heroku-cli-plugin-apps-v5-7-22-7 heroku-cli/plugin-apps-v5@^7.22.7
+117 verbose lock heroku-cli/plugin-apps-v5@^7.22.7 /home/ubuntu/.npm/b5f88caa-heroku-cli-plugin-apps-v5-7-22-7.lock
+118 verbose cache add [ '@heroku-cli/plugin-auth@^7.22.7', null ]
+119 verbose cache add name=undefined spec="@heroku-cli/plugin-auth@^7.22.7" args=["@heroku-cli/plugin-auth@^7.22.7",null]
+120 verbose parsed url { protocol: null,
+120 verbose parsed url   slashes: null,
+120 verbose parsed url   auth: null,
+120 verbose parsed url   host: null,
+120 verbose parsed url   port: null,
+120 verbose parsed url   hostname: null,
+120 verbose parsed url   hash: null,
+120 verbose parsed url   search: null,
+120 verbose parsed url   query: null,
+120 verbose parsed url   pathname: '@heroku-cli/plugin-auth@^7.22.7',
+120 verbose parsed url   path: '@heroku-cli/plugin-auth@^7.22.7',
+120 verbose parsed url   href: '@heroku-cli/plugin-auth@^7.22.7' }
+121 verbose cache add name="" spec="heroku-cli/plugin-auth@^7.22.7" args=["","heroku-cli/plugin-auth@^7.22.7"]
+122 verbose parsed url { protocol: null,
+122 verbose parsed url   slashes: null,
+122 verbose parsed url   auth: null,
+122 verbose parsed url   host: null,
+122 verbose parsed url   port: null,
+122 verbose parsed url   hostname: null,
+122 verbose parsed url   hash: null,
+122 verbose parsed url   search: null,
+122 verbose parsed url   query: null,
+122 verbose parsed url   pathname: 'heroku-cli/plugin-auth@^7.22.7',
+122 verbose parsed url   path: 'heroku-cli/plugin-auth@^7.22.7',
+122 verbose parsed url   href: 'heroku-cli/plugin-auth@^7.22.7' }
+123 verbose cache add name="heroku-cli/plugin-auth" spec="^7.22.7" args=["heroku-cli/plugin-auth","^7.22.7"]
+124 verbose parsed url { protocol: null,
+124 verbose parsed url   slashes: null,
+124 verbose parsed url   auth: null,
+124 verbose parsed url   host: null,
+124 verbose parsed url   port: null,
+124 verbose parsed url   hostname: null,
+124 verbose parsed url   hash: null,
+124 verbose parsed url   search: null,
+124 verbose parsed url   query: null,
+124 verbose parsed url   pathname: '^7.22.7',
+124 verbose parsed url   path: '^7.22.7',
+124 verbose parsed url   href: '^7.22.7' }
+125 verbose addNamed [ 'heroku-cli/plugin-auth', '^7.22.7' ]
+126 verbose addNamed [ null, '>=7.22.7-0 <8.0.0-0' ]
+127 silly lockFile b8081743-heroku-cli-plugin-auth-7-22-7 heroku-cli/plugin-auth@^7.22.7
+128 verbose lock heroku-cli/plugin-auth@^7.22.7 /home/ubuntu/.npm/b8081743-heroku-cli-plugin-auth-7-22-7.lock
+129 silly addNameRange { name: 'heroku-cli/command',
+129 silly addNameRange   range: '>=8.2.10-0 <9.0.0-0',
+129 silly addNameRange   hasData: false }
+130 silly addNameRange { name: 'heroku-cli/plugin-addons-v5',
+130 silly addNameRange   range: '>=7.22.5-0 <8.0.0-0',
+130 silly addNameRange   hasData: false }
+131 verbose url raw heroku-cli/color/1.1.14
+132 verbose url resolving [ 'https://registry.npmjs.org/', './heroku-cli/color/1.1.14' ]
+133 verbose url resolved https://registry.npmjs.org/heroku-cli/color/1.1.14
+134 info trying registry request attempt 1 at 12:16:44
+135 http GET https://registry.npmjs.org/heroku-cli/color/1.1.14
+136 verbose cache add [ '@heroku-cli/plugin-autocomplete@^7.22.7', null ]
+137 verbose cache add name=undefined spec="@heroku-cli/plugin-autocomplete@^7.22.7" args=["@heroku-cli/plugin-autocomplete@^7.22.7",null]
+138 verbose parsed url { protocol: null,
+138 verbose parsed url   slashes: null,
+138 verbose parsed url   auth: null,
+138 verbose parsed url   host: null,
+138 verbose parsed url   port: null,
+138 verbose parsed url   hostname: null,
+138 verbose parsed url   hash: null,
+138 verbose parsed url   search: null,
+138 verbose parsed url   query: null,
+138 verbose parsed url   pathname: '@heroku-cli/plugin-autocomplete@^7.22.7',
+138 verbose parsed url   path: '@heroku-cli/plugin-autocomplete@^7.22.7',
+138 verbose parsed url   href: '@heroku-cli/plugin-autocomplete@^7.22.7' }
+139 verbose cache add name="" spec="heroku-cli/plugin-autocomplete@^7.22.7" args=["","heroku-cli/plugin-autocomplete@^7.22.7"]
+140 verbose parsed url { protocol: null,
+140 verbose parsed url   slashes: null,
+140 verbose parsed url   auth: null,
+140 verbose parsed url   host: null,
+140 verbose parsed url   port: null,
+140 verbose parsed url   hostname: null,
+140 verbose parsed url   hash: null,
+140 verbose parsed url   search: null,
+140 verbose parsed url   query: null,
+140 verbose parsed url   pathname: 'heroku-cli/plugin-autocomplete@^7.22.7',
+140 verbose parsed url   path: 'heroku-cli/plugin-autocomplete@^7.22.7',
+140 verbose parsed url   href: 'heroku-cli/plugin-autocomplete@^7.22.7' }
+141 verbose cache add name="heroku-cli/plugin-autocomplete" spec="^7.22.7" args=["heroku-cli/plugin-autocomplete","^7.22.7"]
+142 verbose parsed url { protocol: null,
+142 verbose parsed url   slashes: null,
+142 verbose parsed url   auth: null,
+142 verbose parsed url   host: null,
+142 verbose parsed url   port: null,
+142 verbose parsed url   hostname: null,
+142 verbose parsed url   hash: null,
+142 verbose parsed url   search: null,
+142 verbose parsed url   query: null,
+142 verbose parsed url   pathname: '^7.22.7',
+142 verbose parsed url   path: '^7.22.7',
+142 verbose parsed url   href: '^7.22.7' }
+143 verbose addNamed [ 'heroku-cli/plugin-autocomplete', '^7.22.7' ]
+144 verbose addNamed [ null, '>=7.22.7-0 <8.0.0-0' ]
+145 silly lockFile 193ad188-u-cli-plugin-autocomplete-7-22-7 heroku-cli/plugin-autocomplete@^7.22.7
+146 verbose lock heroku-cli/plugin-autocomplete@^7.22.7 /home/ubuntu/.npm/193ad188-u-cli-plugin-autocomplete-7-22-7.lock
+147 verbose cache add [ '@heroku-cli/plugin-buildpacks@^7.22.7', null ]
+148 verbose cache add name=undefined spec="@heroku-cli/plugin-buildpacks@^7.22.7" args=["@heroku-cli/plugin-buildpacks@^7.22.7",null]
+149 verbose parsed url { protocol: null,
+149 verbose parsed url   slashes: null,
+149 verbose parsed url   auth: null,
+149 verbose parsed url   host: null,
+149 verbose parsed url   port: null,
+149 verbose parsed url   hostname: null,
+149 verbose parsed url   hash: null,
+149 verbose parsed url   search: null,
+149 verbose parsed url   query: null,
+149 verbose parsed url   pathname: '@heroku-cli/plugin-buildpacks@^7.22.7',
+149 verbose parsed url   path: '@heroku-cli/plugin-buildpacks@^7.22.7',
+149 verbose parsed url   href: '@heroku-cli/plugin-buildpacks@^7.22.7' }
+150 verbose cache add name="" spec="heroku-cli/plugin-buildpacks@^7.22.7" args=["","heroku-cli/plugin-buildpacks@^7.22.7"]
+151 verbose parsed url { protocol: null,
+151 verbose parsed url   slashes: null,
+151 verbose parsed url   auth: null,
+151 verbose parsed url   host: null,
+151 verbose parsed url   port: null,
+151 verbose parsed url   hostname: null,
+151 verbose parsed url   hash: null,
+151 verbose parsed url   search: null,
+151 verbose parsed url   query: null,
+151 verbose parsed url   pathname: 'heroku-cli/plugin-buildpacks@^7.22.7',
+151 verbose parsed url   path: 'heroku-cli/plugin-buildpacks@^7.22.7',
+151 verbose parsed url   href: 'heroku-cli/plugin-buildpacks@^7.22.7' }
+152 verbose cache add name="heroku-cli/plugin-buildpacks" spec="^7.22.7" args=["heroku-cli/plugin-buildpacks","^7.22.7"]
+153 verbose parsed url { protocol: null,
+153 verbose parsed url   slashes: null,
+153 verbose parsed url   auth: null,
+153 verbose parsed url   host: null,
+153 verbose parsed url   port: null,
+153 verbose parsed url   hostname: null,
+153 verbose parsed url   hash: null,
+153 verbose parsed url   search: null,
+153 verbose parsed url   query: null,
+153 verbose parsed url   pathname: '^7.22.7',
+153 verbose parsed url   path: '^7.22.7',
+153 verbose parsed url   href: '^7.22.7' }
+154 verbose addNamed [ 'heroku-cli/plugin-buildpacks', '^7.22.7' ]
+155 verbose addNamed [ null, '>=7.22.7-0 <8.0.0-0' ]
+156 silly lockFile 3af762b6-oku-cli-plugin-buildpacks-7-22-7 heroku-cli/plugin-buildpacks@^7.22.7
+157 verbose lock heroku-cli/plugin-buildpacks@^7.22.7 /home/ubuntu/.npm/3af762b6-oku-cli-plugin-buildpacks-7-22-7.lock
+158 verbose cache add [ '@heroku-cli/plugin-certs@^7.22.7', null ]
+159 verbose cache add name=undefined spec="@heroku-cli/plugin-certs@^7.22.7" args=["@heroku-cli/plugin-certs@^7.22.7",null]
+160 verbose parsed url { protocol: null,
+160 verbose parsed url   slashes: null,
+160 verbose parsed url   auth: null,
+160 verbose parsed url   host: null,
+160 verbose parsed url   port: null,
+160 verbose parsed url   hostname: null,
+160 verbose parsed url   hash: null,
+160 verbose parsed url   search: null,
+160 verbose parsed url   query: null,
+160 verbose parsed url   pathname: '@heroku-cli/plugin-certs@^7.22.7',
+160 verbose parsed url   path: '@heroku-cli/plugin-certs@^7.22.7',
+160 verbose parsed url   href: '@heroku-cli/plugin-certs@^7.22.7' }
+161 verbose cache add name="" spec="heroku-cli/plugin-certs@^7.22.7" args=["","heroku-cli/plugin-certs@^7.22.7"]
+162 verbose parsed url { protocol: null,
+162 verbose parsed url   slashes: null,
+162 verbose parsed url   auth: null,
+162 verbose parsed url   host: null,
+162 verbose parsed url   port: null,
+162 verbose parsed url   hostname: null,
+162 verbose parsed url   hash: null,
+162 verbose parsed url   search: null,
+162 verbose parsed url   query: null,
+162 verbose parsed url   pathname: 'heroku-cli/plugin-certs@^7.22.7',
+162 verbose parsed url   path: 'heroku-cli/plugin-certs@^7.22.7',
+162 verbose parsed url   href: 'heroku-cli/plugin-certs@^7.22.7' }
+163 verbose cache add name="heroku-cli/plugin-certs" spec="^7.22.7" args=["heroku-cli/plugin-certs","^7.22.7"]
+164 verbose parsed url { protocol: null,
+164 verbose parsed url   slashes: null,
+164 verbose parsed url   auth: null,
+164 verbose parsed url   host: null,
+164 verbose parsed url   port: null,
+164 verbose parsed url   hostname: null,
+164 verbose parsed url   hash: null,
+164 verbose parsed url   search: null,
+164 verbose parsed url   query: null,
+164 verbose parsed url   pathname: '^7.22.7',
+164 verbose parsed url   path: '^7.22.7',
+164 verbose parsed url   href: '^7.22.7' }
+165 verbose addNamed [ 'heroku-cli/plugin-certs', '^7.22.7' ]
+166 verbose addNamed [ null, '>=7.22.7-0 <8.0.0-0' ]
+167 silly lockFile 3b7318e0-heroku-cli-plugin-certs-7-22-7 heroku-cli/plugin-certs@^7.22.7
+168 verbose lock heroku-cli/plugin-certs@^7.22.7 /home/ubuntu/.npm/3b7318e0-heroku-cli-plugin-certs-7-22-7.lock
+169 verbose cache add [ '@heroku-cli/plugin-certs-v5@^7.22.5', null ]
+170 verbose cache add name=undefined spec="@heroku-cli/plugin-certs-v5@^7.22.5" args=["@heroku-cli/plugin-certs-v5@^7.22.5",null]
+171 verbose parsed url { protocol: null,
+171 verbose parsed url   slashes: null,
+171 verbose parsed url   auth: null,
+171 verbose parsed url   host: null,
+171 verbose parsed url   port: null,
+171 verbose parsed url   hostname: null,
+171 verbose parsed url   hash: null,
+171 verbose parsed url   search: null,
+171 verbose parsed url   query: null,
+171 verbose parsed url   pathname: '@heroku-cli/plugin-certs-v5@^7.22.5',
+171 verbose parsed url   path: '@heroku-cli/plugin-certs-v5@^7.22.5',
+171 verbose parsed url   href: '@heroku-cli/plugin-certs-v5@^7.22.5' }
+172 verbose cache add name="" spec="heroku-cli/plugin-certs-v5@^7.22.5" args=["","heroku-cli/plugin-certs-v5@^7.22.5"]
+173 verbose parsed url { protocol: null,
+173 verbose parsed url   slashes: null,
+173 verbose parsed url   auth: null,
+173 verbose parsed url   host: null,
+173 verbose parsed url   port: null,
+173 verbose parsed url   hostname: null,
+173 verbose parsed url   hash: null,
+173 verbose parsed url   search: null,
+173 verbose parsed url   query: null,
+173 verbose parsed url   pathname: 'heroku-cli/plugin-certs-v5@^7.22.5',
+173 verbose parsed url   path: 'heroku-cli/plugin-certs-v5@^7.22.5',
+173 verbose parsed url   href: 'heroku-cli/plugin-certs-v5@^7.22.5' }
+174 verbose cache add name="heroku-cli/plugin-certs-v5" spec="^7.22.5" args=["heroku-cli/plugin-certs-v5","^7.22.5"]
+175 verbose parsed url { protocol: null,
+175 verbose parsed url   slashes: null,
+175 verbose parsed url   auth: null,
+175 verbose parsed url   host: null,
+175 verbose parsed url   port: null,
+175 verbose parsed url   hostname: null,
+175 verbose parsed url   hash: null,
+175 verbose parsed url   search: null,
+175 verbose parsed url   query: null,
+175 verbose parsed url   pathname: '^7.22.5',
+175 verbose parsed url   path: '^7.22.5',
+175 verbose parsed url   href: '^7.22.5' }
+176 verbose addNamed [ 'heroku-cli/plugin-certs-v5', '^7.22.5' ]
+177 verbose addNamed [ null, '>=7.22.5-0 <8.0.0-0' ]
+178 silly lockFile cad62787-eroku-cli-plugin-certs-v5-7-22-5 heroku-cli/plugin-certs-v5@^7.22.5
+179 verbose lock heroku-cli/plugin-certs-v5@^7.22.5 /home/ubuntu/.npm/cad62787-eroku-cli-plugin-certs-v5-7-22-5.lock
+180 verbose cache add [ '@heroku-cli/plugin-ci@^7.22.8', null ]
+181 verbose cache add name=undefined spec="@heroku-cli/plugin-ci@^7.22.8" args=["@heroku-cli/plugin-ci@^7.22.8",null]
+182 verbose parsed url { protocol: null,
+182 verbose parsed url   slashes: null,
+182 verbose parsed url   auth: null,
+182 verbose parsed url   host: null,
+182 verbose parsed url   port: null,
+182 verbose parsed url   hostname: null,
+182 verbose parsed url   hash: null,
+182 verbose parsed url   search: null,
+182 verbose parsed url   query: null,
+182 verbose parsed url   pathname: '@heroku-cli/plugin-ci@^7.22.8',
+182 verbose parsed url   path: '@heroku-cli/plugin-ci@^7.22.8',
+182 verbose parsed url   href: '@heroku-cli/plugin-ci@^7.22.8' }
+183 verbose cache add name="" spec="heroku-cli/plugin-ci@^7.22.8" args=["","heroku-cli/plugin-ci@^7.22.8"]
+184 verbose parsed url { protocol: null,
+184 verbose parsed url   slashes: null,
+184 verbose parsed url   auth: null,
+184 verbose parsed url   host: null,
+184 verbose parsed url   port: null,
+184 verbose parsed url   hostname: null,
+184 verbose parsed url   hash: null,
+184 verbose parsed url   search: null,
+184 verbose parsed url   query: null,
+184 verbose parsed url   pathname: 'heroku-cli/plugin-ci@^7.22.8',
+184 verbose parsed url   path: 'heroku-cli/plugin-ci@^7.22.8',
+184 verbose parsed url   href: 'heroku-cli/plugin-ci@^7.22.8' }
+185 verbose cache add name="heroku-cli/plugin-ci" spec="^7.22.8" args=["heroku-cli/plugin-ci","^7.22.8"]
+186 verbose parsed url { protocol: null,
+186 verbose parsed url   slashes: null,
+186 verbose parsed url   auth: null,
+186 verbose parsed url   host: null,
+186 verbose parsed url   port: null,
+186 verbose parsed url   hostname: null,
+186 verbose parsed url   hash: null,
+186 verbose parsed url   search: null,
+186 verbose parsed url   query: null,
+186 verbose parsed url   pathname: '^7.22.8',
+186 verbose parsed url   path: '^7.22.8',
+186 verbose parsed url   href: '^7.22.8' }
+187 verbose addNamed [ 'heroku-cli/plugin-ci', '^7.22.8' ]
+188 verbose addNamed [ null, '>=7.22.8-0 <8.0.0-0' ]
+189 silly lockFile 6bcc1616-heroku-cli-plugin-ci-7-22-8 heroku-cli/plugin-ci@^7.22.8
+190 verbose lock heroku-cli/plugin-ci@^7.22.8 /home/ubuntu/.npm/6bcc1616-heroku-cli-plugin-ci-7-22-8.lock
+191 verbose cache add [ '@heroku-cli/plugin-ci-v5@^7.22.8', null ]
+192 verbose cache add name=undefined spec="@heroku-cli/plugin-ci-v5@^7.22.8" args=["@heroku-cli/plugin-ci-v5@^7.22.8",null]
+193 verbose parsed url { protocol: null,
+193 verbose parsed url   slashes: null,
+193 verbose parsed url   auth: null,
+193 verbose parsed url   host: null,
+193 verbose parsed url   port: null,
+193 verbose parsed url   hostname: null,
+193 verbose parsed url   hash: null,
+193 verbose parsed url   search: null,
+193 verbose parsed url   query: null,
+193 verbose parsed url   pathname: '@heroku-cli/plugin-ci-v5@^7.22.8',
+193 verbose parsed url   path: '@heroku-cli/plugin-ci-v5@^7.22.8',
+193 verbose parsed url   href: '@heroku-cli/plugin-ci-v5@^7.22.8' }
+194 verbose cache add name="" spec="heroku-cli/plugin-ci-v5@^7.22.8" args=["","heroku-cli/plugin-ci-v5@^7.22.8"]
+195 verbose parsed url { protocol: null,
+195 verbose parsed url   slashes: null,
+195 verbose parsed url   auth: null,
+195 verbose parsed url   host: null,
+195 verbose parsed url   port: null,
+195 verbose parsed url   hostname: null,
+195 verbose parsed url   hash: null,
+195 verbose parsed url   search: null,
+195 verbose parsed url   query: null,
+195 verbose parsed url   pathname: 'heroku-cli/plugin-ci-v5@^7.22.8',
+195 verbose parsed url   path: 'heroku-cli/plugin-ci-v5@^7.22.8',
+195 verbose parsed url   href: 'heroku-cli/plugin-ci-v5@^7.22.8' }
+196 verbose cache add name="heroku-cli/plugin-ci-v5" spec="^7.22.8" args=["heroku-cli/plugin-ci-v5","^7.22.8"]
+197 verbose parsed url { protocol: null,
+197 verbose parsed url   slashes: null,
+197 verbose parsed url   auth: null,
+197 verbose parsed url   host: null,
+197 verbose parsed url   port: null,
+197 verbose parsed url   hostname: null,
+197 verbose parsed url   hash: null,
+197 verbose parsed url   search: null,
+197 verbose parsed url   query: null,
+197 verbose parsed url   pathname: '^7.22.8',
+197 verbose parsed url   path: '^7.22.8',
+197 verbose parsed url   href: '^7.22.8' }
+198 verbose addNamed [ 'heroku-cli/plugin-ci-v5', '^7.22.8' ]
+199 verbose addNamed [ null, '>=7.22.8-0 <8.0.0-0' ]
+200 silly lockFile fc8045a7-heroku-cli-plugin-ci-v5-7-22-8 heroku-cli/plugin-ci-v5@^7.22.8
+201 verbose lock heroku-cli/plugin-ci-v5@^7.22.8 /home/ubuntu/.npm/fc8045a7-heroku-cli-plugin-ci-v5-7-22-8.lock
+202 verbose cache add [ '@heroku-cli/plugin-config@^7.22.7', null ]
+203 verbose cache add name=undefined spec="@heroku-cli/plugin-config@^7.22.7" args=["@heroku-cli/plugin-config@^7.22.7",null]
+204 verbose parsed url { protocol: null,
+204 verbose parsed url   slashes: null,
+204 verbose parsed url   auth: null,
+204 verbose parsed url   host: null,
+204 verbose parsed url   port: null,
+204 verbose parsed url   hostname: null,
+204 verbose parsed url   hash: null,
+204 verbose parsed url   search: null,
+204 verbose parsed url   query: null,
+204 verbose parsed url   pathname: '@heroku-cli/plugin-config@^7.22.7',
+204 verbose parsed url   path: '@heroku-cli/plugin-config@^7.22.7',
+204 verbose parsed url   href: '@heroku-cli/plugin-config@^7.22.7' }
+205 verbose cache add name="" spec="heroku-cli/plugin-config@^7.22.7" args=["","heroku-cli/plugin-config@^7.22.7"]
+206 verbose parsed url { protocol: null,
+206 verbose parsed url   slashes: null,
+206 verbose parsed url   auth: null,
+206 verbose parsed url   host: null,
+206 verbose parsed url   port: null,
+206 verbose parsed url   hostname: null,
+206 verbose parsed url   hash: null,
+206 verbose parsed url   search: null,
+206 verbose parsed url   query: null,
+206 verbose parsed url   pathname: 'heroku-cli/plugin-config@^7.22.7',
+206 verbose parsed url   path: 'heroku-cli/plugin-config@^7.22.7',
+206 verbose parsed url   href: 'heroku-cli/plugin-config@^7.22.7' }
+207 verbose cache add name="heroku-cli/plugin-config" spec="^7.22.7" args=["heroku-cli/plugin-config","^7.22.7"]
+208 verbose parsed url { protocol: null,
+208 verbose parsed url   slashes: null,
+208 verbose parsed url   auth: null,
+208 verbose parsed url   host: null,
+208 verbose parsed url   port: null,
+208 verbose parsed url   hostname: null,
+208 verbose parsed url   hash: null,
+208 verbose parsed url   search: null,
+208 verbose parsed url   query: null,
+208 verbose parsed url   pathname: '^7.22.7',
+208 verbose parsed url   path: '^7.22.7',
+208 verbose parsed url   href: '^7.22.7' }
+209 verbose addNamed [ 'heroku-cli/plugin-config', '^7.22.7' ]
+210 verbose addNamed [ null, '>=7.22.7-0 <8.0.0-0' ]
+211 silly lockFile 95144cc8-heroku-cli-plugin-config-7-22-7 heroku-cli/plugin-config@^7.22.7
+212 verbose lock heroku-cli/plugin-config@^7.22.7 /home/ubuntu/.npm/95144cc8-heroku-cli-plugin-config-7-22-7.lock
+213 verbose url raw heroku-cli/command
+214 verbose url resolving [ 'https://registry.npmjs.org/', './heroku-cli/command' ]
+215 verbose url resolved https://registry.npmjs.org/heroku-cli/command
+216 info trying registry request attempt 1 at 12:16:44
+217 http GET https://registry.npmjs.org/heroku-cli/command
+218 silly addNameRange { name: 'heroku-cli/plugin-apps-v5',
+218 silly addNameRange   range: '>=7.22.7-0 <8.0.0-0',
+218 silly addNameRange   hasData: false }
+219 verbose url raw heroku-cli/plugin-addons-v5
+220 verbose url resolving [ 'https://registry.npmjs.org/',
+220 verbose url resolving   './heroku-cli/plugin-addons-v5' ]
+221 verbose url resolved https://registry.npmjs.org/heroku-cli/plugin-addons-v5
+222 info trying registry request attempt 1 at 12:16:44
+223 http GET https://registry.npmjs.org/heroku-cli/plugin-addons-v5
+224 verbose cache add [ '@heroku-cli/plugin-container-registry-v5@^7.22.5', null ]
+225 verbose cache add name=undefined spec="@heroku-cli/plugin-container-registry-v5@^7.22.5" args=["@heroku-cli/plugin-container-registry-v5@^7.22.5",null]
+226 verbose parsed url { protocol: null,
+226 verbose parsed url   slashes: null,
+226 verbose parsed url   auth: null,
+226 verbose parsed url   host: null,
+226 verbose parsed url   port: null,
+226 verbose parsed url   hostname: null,
+226 verbose parsed url   hash: null,
+226 verbose parsed url   search: null,
+226 verbose parsed url   query: null,
+226 verbose parsed url   pathname: '@heroku-cli/plugin-container-registry-v5@^7.22.5',
+226 verbose parsed url   path: '@heroku-cli/plugin-container-registry-v5@^7.22.5',
+226 verbose parsed url   href: '@heroku-cli/plugin-container-registry-v5@^7.22.5' }
+227 verbose cache add name="" spec="heroku-cli/plugin-container-registry-v5@^7.22.5" args=["","heroku-cli/plugin-container-registry-v5@^7.22.5"]
+228 verbose parsed url { protocol: null,
+228 verbose parsed url   slashes: null,
+228 verbose parsed url   auth: null,
+228 verbose parsed url   host: null,
+228 verbose parsed url   port: null,
+228 verbose parsed url   hostname: null,
+228 verbose parsed url   hash: null,
+228 verbose parsed url   search: null,
+228 verbose parsed url   query: null,
+228 verbose parsed url   pathname: 'heroku-cli/plugin-container-registry-v5@^7.22.5',
+228 verbose parsed url   path: 'heroku-cli/plugin-container-registry-v5@^7.22.5',
+228 verbose parsed url   href: 'heroku-cli/plugin-container-registry-v5@^7.22.5' }
+229 verbose cache add name="heroku-cli/plugin-container-registry-v5" spec="^7.22.5" args=["heroku-cli/plugin-container-registry-v5","^7.22.5"]
+230 verbose parsed url { protocol: null,
+230 verbose parsed url   slashes: null,
+230 verbose parsed url   auth: null,
+230 verbose parsed url   host: null,
+230 verbose parsed url   port: null,
+230 verbose parsed url   hostname: null,
+230 verbose parsed url   hash: null,
+230 verbose parsed url   search: null,
+230 verbose parsed url   query: null,
+230 verbose parsed url   pathname: '^7.22.5',
+230 verbose parsed url   path: '^7.22.5',
+230 verbose parsed url   href: '^7.22.5' }
+231 verbose addNamed [ 'heroku-cli/plugin-container-registry-v5', '^7.22.5' ]
+232 verbose addNamed [ null, '>=7.22.5-0 <8.0.0-0' ]
+233 silly lockFile c69f8323-gin-container-registry-v5-7-22-5 heroku-cli/plugin-container-registry-v5@^7.22.5
+234 verbose lock heroku-cli/plugin-container-registry-v5@^7.22.5 /home/ubuntu/.npm/c69f8323-gin-container-registry-v5-7-22-5.lock
+235 verbose cache add [ '@heroku-cli/plugin-git@^7.22.7', null ]
+236 verbose cache add name=undefined spec="@heroku-cli/plugin-git@^7.22.7" args=["@heroku-cli/plugin-git@^7.22.7",null]
+237 verbose parsed url { protocol: null,
+237 verbose parsed url   slashes: null,
+237 verbose parsed url   auth: null,
+237 verbose parsed url   host: null,
+237 verbose parsed url   port: null,
+237 verbose parsed url   hostname: null,
+237 verbose parsed url   hash: null,
+237 verbose parsed url   search: null,
+237 verbose parsed url   query: null,
+237 verbose parsed url   pathname: '@heroku-cli/plugin-git@^7.22.7',
+237 verbose parsed url   path: '@heroku-cli/plugin-git@^7.22.7',
+237 verbose parsed url   href: '@heroku-cli/plugin-git@^7.22.7' }
+238 verbose cache add name="" spec="heroku-cli/plugin-git@^7.22.7" args=["","heroku-cli/plugin-git@^7.22.7"]
+239 verbose parsed url { protocol: null,
+239 verbose parsed url   slashes: null,
+239 verbose parsed url   auth: null,
+239 verbose parsed url   host: null,
+239 verbose parsed url   port: null,
+239 verbose parsed url   hostname: null,
+239 verbose parsed url   hash: null,
+239 verbose parsed url   search: null,
+239 verbose parsed url   query: null,
+239 verbose parsed url   pathname: 'heroku-cli/plugin-git@^7.22.7',
+239 verbose parsed url   path: 'heroku-cli/plugin-git@^7.22.7',
+239 verbose parsed url   href: 'heroku-cli/plugin-git@^7.22.7' }
+240 verbose cache add name="heroku-cli/plugin-git" spec="^7.22.7" args=["heroku-cli/plugin-git","^7.22.7"]
+241 verbose parsed url { protocol: null,
+241 verbose parsed url   slashes: null,
+241 verbose parsed url   auth: null,
+241 verbose parsed url   host: null,
+241 verbose parsed url   port: null,
+241 verbose parsed url   hostname: null,
+241 verbose parsed url   hash: null,
+241 verbose parsed url   search: null,
+241 verbose parsed url   query: null,
+241 verbose parsed url   pathname: '^7.22.7',
+241 verbose parsed url   path: '^7.22.7',
+241 verbose parsed url   href: '^7.22.7' }
+242 verbose addNamed [ 'heroku-cli/plugin-git', '^7.22.7' ]
+243 verbose addNamed [ null, '>=7.22.7-0 <8.0.0-0' ]
+244 silly lockFile 8f5e55d5-heroku-cli-plugin-git-7-22-7 heroku-cli/plugin-git@^7.22.7
+245 verbose lock heroku-cli/plugin-git@^7.22.7 /home/ubuntu/.npm/8f5e55d5-heroku-cli-plugin-git-7-22-7.lock
+246 verbose cache add [ '@heroku-cli/plugin-local-v5@^7.22.7', null ]
+247 verbose cache add name=undefined spec="@heroku-cli/plugin-local-v5@^7.22.7" args=["@heroku-cli/plugin-local-v5@^7.22.7",null]
+248 verbose parsed url { protocol: null,
+248 verbose parsed url   slashes: null,
+248 verbose parsed url   auth: null,
+248 verbose parsed url   host: null,
+248 verbose parsed url   port: null,
+248 verbose parsed url   hostname: null,
+248 verbose parsed url   hash: null,
+248 verbose parsed url   search: null,
+248 verbose parsed url   query: null,
+248 verbose parsed url   pathname: '@heroku-cli/plugin-local-v5@^7.22.7',
+248 verbose parsed url   path: '@heroku-cli/plugin-local-v5@^7.22.7',
+248 verbose parsed url   href: '@heroku-cli/plugin-local-v5@^7.22.7' }
+249 verbose cache add name="" spec="heroku-cli/plugin-local-v5@^7.22.7" args=["","heroku-cli/plugin-local-v5@^7.22.7"]
+250 verbose parsed url { protocol: null,
+250 verbose parsed url   slashes: null,
+250 verbose parsed url   auth: null,
+250 verbose parsed url   host: null,
+250 verbose parsed url   port: null,
+250 verbose parsed url   hostname: null,
+250 verbose parsed url   hash: null,
+250 verbose parsed url   search: null,
+250 verbose parsed url   query: null,
+250 verbose parsed url   pathname: 'heroku-cli/plugin-local-v5@^7.22.7',
+250 verbose parsed url   path: 'heroku-cli/plugin-local-v5@^7.22.7',
+250 verbose parsed url   href: 'heroku-cli/plugin-local-v5@^7.22.7' }
+251 verbose cache add name="heroku-cli/plugin-local-v5" spec="^7.22.7" args=["heroku-cli/plugin-local-v5","^7.22.7"]
+252 verbose parsed url { protocol: null,
+252 verbose parsed url   slashes: null,
+252 verbose parsed url   auth: null,
+252 verbose parsed url   host: null,
+252 verbose parsed url   port: null,
+252 verbose parsed url   hostname: null,
+252 verbose parsed url   hash: null,
+252 verbose parsed url   search: null,
+252 verbose parsed url   query: null,
+252 verbose parsed url   pathname: '^7.22.7',
+252 verbose parsed url   path: '^7.22.7',
+252 verbose parsed url   href: '^7.22.7' }
+253 verbose addNamed [ 'heroku-cli/plugin-local-v5', '^7.22.7' ]
+254 verbose addNamed [ null, '>=7.22.7-0 <8.0.0-0' ]
+255 silly lockFile c6f5131b-eroku-cli-plugin-local-v5-7-22-7 heroku-cli/plugin-local-v5@^7.22.7
+256 verbose lock heroku-cli/plugin-local-v5@^7.22.7 /home/ubuntu/.npm/c6f5131b-eroku-cli-plugin-local-v5-7-22-7.lock
+257 verbose cache add [ '@heroku-cli/plugin-oauth-v5@^7.22.5', null ]
+258 verbose cache add name=undefined spec="@heroku-cli/plugin-oauth-v5@^7.22.5" args=["@heroku-cli/plugin-oauth-v5@^7.22.5",null]
+259 verbose parsed url { protocol: null,
+259 verbose parsed url   slashes: null,
+259 verbose parsed url   auth: null,
+259 verbose parsed url   host: null,
+259 verbose parsed url   port: null,
+259 verbose parsed url   hostname: null,
+259 verbose parsed url   hash: null,
+259 verbose parsed url   search: null,
+259 verbose parsed url   query: null,
+259 verbose parsed url   pathname: '@heroku-cli/plugin-oauth-v5@^7.22.5',
+259 verbose parsed url   path: '@heroku-cli/plugin-oauth-v5@^7.22.5',
+259 verbose parsed url   href: '@heroku-cli/plugin-oauth-v5@^7.22.5' }
+260 verbose cache add name="" spec="heroku-cli/plugin-oauth-v5@^7.22.5" args=["","heroku-cli/plugin-oauth-v5@^7.22.5"]
+261 verbose parsed url { protocol: null,
+261 verbose parsed url   slashes: null,
+261 verbose parsed url   auth: null,
+261 verbose parsed url   host: null,
+261 verbose parsed url   port: null,
+261 verbose parsed url   hostname: null,
+261 verbose parsed url   hash: null,
+261 verbose parsed url   search: null,
+261 verbose parsed url   query: null,
+261 verbose parsed url   pathname: 'heroku-cli/plugin-oauth-v5@^7.22.5',
+261 verbose parsed url   path: 'heroku-cli/plugin-oauth-v5@^7.22.5',
+261 verbose parsed url   href: 'heroku-cli/plugin-oauth-v5@^7.22.5' }
+262 verbose cache add name="heroku-cli/plugin-oauth-v5" spec="^7.22.5" args=["heroku-cli/plugin-oauth-v5","^7.22.5"]
+263 verbose parsed url { protocol: null,
+263 verbose parsed url   slashes: null,
+263 verbose parsed url   auth: null,
+263 verbose parsed url   host: null,
+263 verbose parsed url   port: null,
+263 verbose parsed url   hostname: null,
+263 verbose parsed url   hash: null,
+263 verbose parsed url   search: null,
+263 verbose parsed url   query: null,
+263 verbose parsed url   pathname: '^7.22.5',
+263 verbose parsed url   path: '^7.22.5',
+263 verbose parsed url   href: '^7.22.5' }
+264 verbose addNamed [ 'heroku-cli/plugin-oauth-v5', '^7.22.5' ]
+265 verbose addNamed [ null, '>=7.22.5-0 <8.0.0-0' ]
+266 silly lockFile 749e6310-eroku-cli-plugin-oauth-v5-7-22-5 heroku-cli/plugin-oauth-v5@^7.22.5
+267 verbose lock heroku-cli/plugin-oauth-v5@^7.22.5 /home/ubuntu/.npm/749e6310-eroku-cli-plugin-oauth-v5-7-22-5.lock
+268 verbose cache add [ '@heroku-cli/plugin-orgs-v5@^7.22.7', null ]
+269 verbose cache add name=undefined spec="@heroku-cli/plugin-orgs-v5@^7.22.7" args=["@heroku-cli/plugin-orgs-v5@^7.22.7",null]
+270 verbose parsed url { protocol: null,
+270 verbose parsed url   slashes: null,
+270 verbose parsed url   auth: null,
+270 verbose parsed url   host: null,
+270 verbose parsed url   port: null,
+270 verbose parsed url   hostname: null,
+270 verbose parsed url   hash: null,
+270 verbose parsed url   search: null,
+270 verbose parsed url   query: null,
+270 verbose parsed url   pathname: '@heroku-cli/plugin-orgs-v5@^7.22.7',
+270 verbose parsed url   path: '@heroku-cli/plugin-orgs-v5@^7.22.7',
+270 verbose parsed url   href: '@heroku-cli/plugin-orgs-v5@^7.22.7' }
+271 verbose cache add name="" spec="heroku-cli/plugin-orgs-v5@^7.22.7" args=["","heroku-cli/plugin-orgs-v5@^7.22.7"]
+272 verbose parsed url { protocol: null,
+272 verbose parsed url   slashes: null,
+272 verbose parsed url   auth: null,
+272 verbose parsed url   host: null,
+272 verbose parsed url   port: null,
+272 verbose parsed url   hostname: null,
+272 verbose parsed url   hash: null,
+272 verbose parsed url   search: null,
+272 verbose parsed url   query: null,
+272 verbose parsed url   pathname: 'heroku-cli/plugin-orgs-v5@^7.22.7',
+272 verbose parsed url   path: 'heroku-cli/plugin-orgs-v5@^7.22.7',
+272 verbose parsed url   href: 'heroku-cli/plugin-orgs-v5@^7.22.7' }
+273 verbose cache add name="heroku-cli/plugin-orgs-v5" spec="^7.22.7" args=["heroku-cli/plugin-orgs-v5","^7.22.7"]
+274 verbose parsed url { protocol: null,
+274 verbose parsed url   slashes: null,
+274 verbose parsed url   auth: null,
+274 verbose parsed url   host: null,
+274 verbose parsed url   port: null,
+274 verbose parsed url   hostname: null,
+274 verbose parsed url   hash: null,
+274 verbose parsed url   search: null,
+274 verbose parsed url   query: null,
+274 verbose parsed url   pathname: '^7.22.7',
+274 verbose parsed url   path: '^7.22.7',
+274 verbose parsed url   href: '^7.22.7' }
+275 verbose addNamed [ 'heroku-cli/plugin-orgs-v5', '^7.22.7' ]
+276 verbose addNamed [ null, '>=7.22.7-0 <8.0.0-0' ]
+277 silly lockFile 7ecfc08f-heroku-cli-plugin-orgs-v5-7-22-7 heroku-cli/plugin-orgs-v5@^7.22.7
+278 verbose lock heroku-cli/plugin-orgs-v5@^7.22.7 /home/ubuntu/.npm/7ecfc08f-heroku-cli-plugin-orgs-v5-7-22-7.lock
+279 verbose cache add [ '@heroku-cli/plugin-pg-v5@^7.22.5', null ]
+280 verbose cache add name=undefined spec="@heroku-cli/plugin-pg-v5@^7.22.5" args=["@heroku-cli/plugin-pg-v5@^7.22.5",null]
+281 verbose parsed url { protocol: null,
+281 verbose parsed url   slashes: null,
+281 verbose parsed url   auth: null,
+281 verbose parsed url   host: null,
+281 verbose parsed url   port: null,
+281 verbose parsed url   hostname: null,
+281 verbose parsed url   hash: null,
+281 verbose parsed url   search: null,
+281 verbose parsed url   query: null,
+281 verbose parsed url   pathname: '@heroku-cli/plugin-pg-v5@^7.22.5',
+281 verbose parsed url   path: '@heroku-cli/plugin-pg-v5@^7.22.5',
+281 verbose parsed url   href: '@heroku-cli/plugin-pg-v5@^7.22.5' }
+282 verbose cache add name="" spec="heroku-cli/plugin-pg-v5@^7.22.5" args=["","heroku-cli/plugin-pg-v5@^7.22.5"]
+283 verbose parsed url { protocol: null,
+283 verbose parsed url   slashes: null,
+283 verbose parsed url   auth: null,
+283 verbose parsed url   host: null,
+283 verbose parsed url   port: null,
+283 verbose parsed url   hostname: null,
+283 verbose parsed url   hash: null,
+283 verbose parsed url   search: null,
+283 verbose parsed url   query: null,
+283 verbose parsed url   pathname: 'heroku-cli/plugin-pg-v5@^7.22.5',
+283 verbose parsed url   path: 'heroku-cli/plugin-pg-v5@^7.22.5',
+283 verbose parsed url   href: 'heroku-cli/plugin-pg-v5@^7.22.5' }
+284 verbose cache add name="heroku-cli/plugin-pg-v5" spec="^7.22.5" args=["heroku-cli/plugin-pg-v5","^7.22.5"]
+285 verbose parsed url { protocol: null,
+285 verbose parsed url   slashes: null,
+285 verbose parsed url   auth: null,
+285 verbose parsed url   host: null,
+285 verbose parsed url   port: null,
+285 verbose parsed url   hostname: null,
+285 verbose parsed url   hash: null,
+285 verbose parsed url   search: null,
+285 verbose parsed url   query: null,
+285 verbose parsed url   pathname: '^7.22.5',
+285 verbose parsed url   path: '^7.22.5',
+285 verbose parsed url   href: '^7.22.5' }
+286 verbose addNamed [ 'heroku-cli/plugin-pg-v5', '^7.22.5' ]
+287 verbose addNamed [ null, '>=7.22.5-0 <8.0.0-0' ]
+288 silly lockFile 5f0f70cd-heroku-cli-plugin-pg-v5-7-22-5 heroku-cli/plugin-pg-v5@^7.22.5
+289 verbose lock heroku-cli/plugin-pg-v5@^7.22.5 /home/ubuntu/.npm/5f0f70cd-heroku-cli-plugin-pg-v5-7-22-5.lock
+290 verbose cache add [ '@heroku-cli/plugin-pipelines-v5@^7.22.7', null ]
+291 verbose cache add name=undefined spec="@heroku-cli/plugin-pipelines-v5@^7.22.7" args=["@heroku-cli/plugin-pipelines-v5@^7.22.7",null]
+292 verbose parsed url { protocol: null,
+292 verbose parsed url   slashes: null,
+292 verbose parsed url   auth: null,
+292 verbose parsed url   host: null,
+292 verbose parsed url   port: null,
+292 verbose parsed url   hostname: null,
+292 verbose parsed url   hash: null,
+292 verbose parsed url   search: null,
+292 verbose parsed url   query: null,
+292 verbose parsed url   pathname: '@heroku-cli/plugin-pipelines-v5@^7.22.7',
+292 verbose parsed url   path: '@heroku-cli/plugin-pipelines-v5@^7.22.7',
+292 verbose parsed url   href: '@heroku-cli/plugin-pipelines-v5@^7.22.7' }
+293 verbose cache add name="" spec="heroku-cli/plugin-pipelines-v5@^7.22.7" args=["","heroku-cli/plugin-pipelines-v5@^7.22.7"]
+294 verbose parsed url { protocol: null,
+294 verbose parsed url   slashes: null,
+294 verbose parsed url   auth: null,
+294 verbose parsed url   host: null,
+294 verbose parsed url   port: null,
+294 verbose parsed url   hostname: null,
+294 verbose parsed url   hash: null,
+294 verbose parsed url   search: null,
+294 verbose parsed url   query: null,
+294 verbose parsed url   pathname: 'heroku-cli/plugin-pipelines-v5@^7.22.7',
+294 verbose parsed url   path: 'heroku-cli/plugin-pipelines-v5@^7.22.7',
+294 verbose parsed url   href: 'heroku-cli/plugin-pipelines-v5@^7.22.7' }
+295 verbose cache add name="heroku-cli/plugin-pipelines-v5" spec="^7.22.7" args=["heroku-cli/plugin-pipelines-v5","^7.22.7"]
+296 verbose parsed url { protocol: null,
+296 verbose parsed url   slashes: null,
+296 verbose parsed url   auth: null,
+296 verbose parsed url   host: null,
+296 verbose parsed url   port: null,
+296 verbose parsed url   hostname: null,
+296 verbose parsed url   hash: null,
+296 verbose parsed url   search: null,
+296 verbose parsed url   query: null,
+296 verbose parsed url   pathname: '^7.22.7',
+296 verbose parsed url   path: '^7.22.7',
+296 verbose parsed url   href: '^7.22.7' }
+297 verbose addNamed [ 'heroku-cli/plugin-pipelines-v5', '^7.22.7' ]
+298 verbose addNamed [ null, '>=7.22.7-0 <8.0.0-0' ]
+299 silly lockFile e7bbdaef-u-cli-plugin-pipelines-v5-7-22-7 heroku-cli/plugin-pipelines-v5@^7.22.7
+300 verbose lock heroku-cli/plugin-pipelines-v5@^7.22.7 /home/ubuntu/.npm/e7bbdaef-u-cli-plugin-pipelines-v5-7-22-7.lock
+301 verbose cache add [ '@heroku-cli/plugin-ps@^7.22.7', null ]
+302 verbose cache add name=undefined spec="@heroku-cli/plugin-ps@^7.22.7" args=["@heroku-cli/plugin-ps@^7.22.7",null]
+303 verbose parsed url { protocol: null,
+303 verbose parsed url   slashes: null,
+303 verbose parsed url   auth: null,
+303 verbose parsed url   host: null,
+303 verbose parsed url   port: null,
+303 verbose parsed url   hostname: null,
+303 verbose parsed url   hash: null,
+303 verbose parsed url   search: null,
+303 verbose parsed url   query: null,
+303 verbose parsed url   pathname: '@heroku-cli/plugin-ps@^7.22.7',
+303 verbose parsed url   path: '@heroku-cli/plugin-ps@^7.22.7',
+303 verbose parsed url   href: '@heroku-cli/plugin-ps@^7.22.7' }
+304 verbose cache add name="" spec="heroku-cli/plugin-ps@^7.22.7" args=["","heroku-cli/plugin-ps@^7.22.7"]
+305 verbose parsed url { protocol: null,
+305 verbose parsed url   slashes: null,
+305 verbose parsed url   auth: null,
+305 verbose parsed url   host: null,
+305 verbose parsed url   port: null,
+305 verbose parsed url   hostname: null,
+305 verbose parsed url   hash: null,
+305 verbose parsed url   search: null,
+305 verbose parsed url   query: null,
+305 verbose parsed url   pathname: 'heroku-cli/plugin-ps@^7.22.7',
+305 verbose parsed url   path: 'heroku-cli/plugin-ps@^7.22.7',
+305 verbose parsed url   href: 'heroku-cli/plugin-ps@^7.22.7' }
+306 verbose cache add name="heroku-cli/plugin-ps" spec="^7.22.7" args=["heroku-cli/plugin-ps","^7.22.7"]
+307 verbose parsed url { protocol: null,
+307 verbose parsed url   slashes: null,
+307 verbose parsed url   auth: null,
+307 verbose parsed url   host: null,
+307 verbose parsed url   port: null,
+307 verbose parsed url   hostname: null,
+307 verbose parsed url   hash: null,
+307 verbose parsed url   search: null,
+307 verbose parsed url   query: null,
+307 verbose parsed url   pathname: '^7.22.7',
+307 verbose parsed url   path: '^7.22.7',
+307 verbose parsed url   href: '^7.22.7' }
+308 verbose addNamed [ 'heroku-cli/plugin-ps', '^7.22.7' ]
+309 verbose addNamed [ null, '>=7.22.7-0 <8.0.0-0' ]
+310 silly lockFile 22f7cedf-heroku-cli-plugin-ps-7-22-7 heroku-cli/plugin-ps@^7.22.7
+311 verbose lock heroku-cli/plugin-ps@^7.22.7 /home/ubuntu/.npm/22f7cedf-heroku-cli-plugin-ps-7-22-7.lock
+312 silly addNameRange { name: 'heroku-cli/plugin-auth',
+312 silly addNameRange   range: '>=7.22.7-0 <8.0.0-0',
+312 silly addNameRange   hasData: false }
+313 verbose url raw heroku-cli/plugin-apps-v5
+314 verbose url resolving [ 'https://registry.npmjs.org/', './heroku-cli/plugin-apps-v5' ]
+315 verbose url resolved https://registry.npmjs.org/heroku-cli/plugin-apps-v5
+316 info trying registry request attempt 1 at 12:16:44
+317 http GET https://registry.npmjs.org/heroku-cli/plugin-apps-v5
+318 silly addNameRange { name: 'heroku-cli/plugin-autocomplete',
+318 silly addNameRange   range: '>=7.22.7-0 <8.0.0-0',
+318 silly addNameRange   hasData: false }
+319 silly addNameRange { name: 'heroku-cli/plugin-buildpacks',
+319 silly addNameRange   range: '>=7.22.7-0 <8.0.0-0',
+319 silly addNameRange   hasData: false }
+320 silly addNameRange { name: 'heroku-cli/plugin-certs',
+320 silly addNameRange   range: '>=7.22.7-0 <8.0.0-0',
+320 silly addNameRange   hasData: false }
+321 silly addNameRange { name: 'heroku-cli/plugin-certs-v5',
+321 silly addNameRange   range: '>=7.22.5-0 <8.0.0-0',
+321 silly addNameRange   hasData: false }
+322 silly addNameRange { name: 'heroku-cli/plugin-ci',
+322 silly addNameRange   range: '>=7.22.8-0 <8.0.0-0',
+322 silly addNameRange   hasData: false }
+323 silly addNameRange { name: 'heroku-cli/plugin-ci-v5',
+323 silly addNameRange   range: '>=7.22.8-0 <8.0.0-0',
+323 silly addNameRange   hasData: false }
+324 verbose cache add [ '@heroku-cli/plugin-ps-exec@2.3.5', null ]
+325 verbose cache add name=undefined spec="@heroku-cli/plugin-ps-exec@2.3.5" args=["@heroku-cli/plugin-ps-exec@2.3.5",null]
+326 verbose parsed url { protocol: null,
+326 verbose parsed url   slashes: null,
+326 verbose parsed url   auth: null,
+326 verbose parsed url   host: null,
+326 verbose parsed url   port: null,
+326 verbose parsed url   hostname: null,
+326 verbose parsed url   hash: null,
+326 verbose parsed url   search: null,
+326 verbose parsed url   query: null,
+326 verbose parsed url   pathname: '@heroku-cli/plugin-ps-exec@2.3.5',
+326 verbose parsed url   path: '@heroku-cli/plugin-ps-exec@2.3.5',
+326 verbose parsed url   href: '@heroku-cli/plugin-ps-exec@2.3.5' }
+327 verbose cache add name="" spec="heroku-cli/plugin-ps-exec@2.3.5" args=["","heroku-cli/plugin-ps-exec@2.3.5"]
+328 verbose parsed url { protocol: null,
+328 verbose parsed url   slashes: null,
+328 verbose parsed url   auth: null,
+328 verbose parsed url   host: null,
+328 verbose parsed url   port: null,
+328 verbose parsed url   hostname: null,
+328 verbose parsed url   hash: null,
+328 verbose parsed url   search: null,
+328 verbose parsed url   query: null,
+328 verbose parsed url   pathname: 'heroku-cli/plugin-ps-exec@2.3.5',
+328 verbose parsed url   path: 'heroku-cli/plugin-ps-exec@2.3.5',
+328 verbose parsed url   href: 'heroku-cli/plugin-ps-exec@2.3.5' }
+329 verbose cache add name="heroku-cli/plugin-ps-exec" spec="2.3.5" args=["heroku-cli/plugin-ps-exec","2.3.5"]
+330 verbose parsed url { protocol: null,
+330 verbose parsed url   slashes: null,
+330 verbose parsed url   auth: null,
+330 verbose parsed url   host: null,
+330 verbose parsed url   port: null,
+330 verbose parsed url   hostname: null,
+330 verbose parsed url   hash: null,
+330 verbose parsed url   search: null,
+330 verbose parsed url   query: null,
+330 verbose parsed url   pathname: '2.3.5',
+330 verbose parsed url   path: '2.3.5',
+330 verbose parsed url   href: '2.3.5' }
+331 verbose addNamed [ 'heroku-cli/plugin-ps-exec', '2.3.5' ]
+332 verbose addNamed [ '2.3.5', '2.3.5' ]
+333 silly lockFile 56e73c85-heroku-cli-plugin-ps-exec-2-3-5 heroku-cli/plugin-ps-exec@2.3.5
+334 verbose lock heroku-cli/plugin-ps-exec@2.3.5 /home/ubuntu/.npm/56e73c85-heroku-cli-plugin-ps-exec-2-3-5.lock
+335 verbose cache add [ '@heroku-cli/plugin-redis-v5@^7.22.8', null ]
+336 verbose cache add name=undefined spec="@heroku-cli/plugin-redis-v5@^7.22.8" args=["@heroku-cli/plugin-redis-v5@^7.22.8",null]
+337 verbose parsed url { protocol: null,
+337 verbose parsed url   slashes: null,
+337 verbose parsed url   auth: null,
+337 verbose parsed url   host: null,
+337 verbose parsed url   port: null,
+337 verbose parsed url   hostname: null,
+337 verbose parsed url   hash: null,
+337 verbose parsed url   search: null,
+337 verbose parsed url   query: null,
+337 verbose parsed url   pathname: '@heroku-cli/plugin-redis-v5@^7.22.8',
+337 verbose parsed url   path: '@heroku-cli/plugin-redis-v5@^7.22.8',
+337 verbose parsed url   href: '@heroku-cli/plugin-redis-v5@^7.22.8' }
+338 verbose cache add name="" spec="heroku-cli/plugin-redis-v5@^7.22.8" args=["","heroku-cli/plugin-redis-v5@^7.22.8"]
+339 verbose parsed url { protocol: null,
+339 verbose parsed url   slashes: null,
+339 verbose parsed url   auth: null,
+339 verbose parsed url   host: null,
+339 verbose parsed url   port: null,
+339 verbose parsed url   hostname: null,
+339 verbose parsed url   hash: null,
+339 verbose parsed url   search: null,
+339 verbose parsed url   query: null,
+339 verbose parsed url   pathname: 'heroku-cli/plugin-redis-v5@^7.22.8',
+339 verbose parsed url   path: 'heroku-cli/plugin-redis-v5@^7.22.8',
+339 verbose parsed url   href: 'heroku-cli/plugin-redis-v5@^7.22.8' }
+340 verbose cache add name="heroku-cli/plugin-redis-v5" spec="^7.22.8" args=["heroku-cli/plugin-redis-v5","^7.22.8"]
+341 verbose parsed url { protocol: null,
+341 verbose parsed url   slashes: null,
+341 verbose parsed url   auth: null,
+341 verbose parsed url   host: null,
+341 verbose parsed url   port: null,
+341 verbose parsed url   hostname: null,
+341 verbose parsed url   hash: null,
+341 verbose parsed url   search: null,
+341 verbose parsed url   query: null,
+341 verbose parsed url   pathname: '^7.22.8',
+341 verbose parsed url   path: '^7.22.8',
+341 verbose parsed url   href: '^7.22.8' }
+342 verbose addNamed [ 'heroku-cli/plugin-redis-v5', '^7.22.8' ]
+343 verbose addNamed [ null, '>=7.22.8-0 <8.0.0-0' ]
+344 silly lockFile 414bac46-eroku-cli-plugin-redis-v5-7-22-8 heroku-cli/plugin-redis-v5@^7.22.8
+345 verbose lock heroku-cli/plugin-redis-v5@^7.22.8 /home/ubuntu/.npm/414bac46-eroku-cli-plugin-redis-v5-7-22-8.lock
+346 verbose cache add [ '@heroku-cli/plugin-run-v5@^7.22.8', null ]
+347 verbose cache add name=undefined spec="@heroku-cli/plugin-run-v5@^7.22.8" args=["@heroku-cli/plugin-run-v5@^7.22.8",null]
+348 verbose parsed url { protocol: null,
+348 verbose parsed url   slashes: null,
+348 verbose parsed url   auth: null,
+348 verbose parsed url   host: null,
+348 verbose parsed url   port: null,
+348 verbose parsed url   hostname: null,
+348 verbose parsed url   hash: null,
+348 verbose parsed url   search: null,
+348 verbose parsed url   query: null,
+348 verbose parsed url   pathname: '@heroku-cli/plugin-run-v5@^7.22.8',
+348 verbose parsed url   path: '@heroku-cli/plugin-run-v5@^7.22.8',
+348 verbose parsed url   href: '@heroku-cli/plugin-run-v5@^7.22.8' }
+349 verbose cache add name="" spec="heroku-cli/plugin-run-v5@^7.22.8" args=["","heroku-cli/plugin-run-v5@^7.22.8"]
+350 verbose parsed url { protocol: null,
+350 verbose parsed url   slashes: null,
+350 verbose parsed url   auth: null,
+350 verbose parsed url   host: null,
+350 verbose parsed url   port: null,
+350 verbose parsed url   hostname: null,
+350 verbose parsed url   hash: null,
+350 verbose parsed url   search: null,
+350 verbose parsed url   query: null,
+350 verbose parsed url   pathname: 'heroku-cli/plugin-run-v5@^7.22.8',
+350 verbose parsed url   path: 'heroku-cli/plugin-run-v5@^7.22.8',
+350 verbose parsed url   href: 'heroku-cli/plugin-run-v5@^7.22.8' }
+351 verbose cache add name="heroku-cli/plugin-run-v5" spec="^7.22.8" args=["heroku-cli/plugin-run-v5","^7.22.8"]
+352 verbose parsed url { protocol: null,
+352 verbose parsed url   slashes: null,
+352 verbose parsed url   auth: null,
+352 verbose parsed url   host: null,
+352 verbose parsed url   port: null,
+352 verbose parsed url   hostname: null,
+352 verbose parsed url   hash: null,
+352 verbose parsed url   search: null,
+352 verbose parsed url   query: null,
+352 verbose parsed url   pathname: '^7.22.8',
+352 verbose parsed url   path: '^7.22.8',
+352 verbose parsed url   href: '^7.22.8' }
+353 verbose addNamed [ 'heroku-cli/plugin-run-v5', '^7.22.8' ]
+354 verbose addNamed [ null, '>=7.22.8-0 <8.0.0-0' ]
+355 silly lockFile d61a3072-heroku-cli-plugin-run-v5-7-22-8 heroku-cli/plugin-run-v5@^7.22.8
+356 verbose lock heroku-cli/plugin-run-v5@^7.22.8 /home/ubuntu/.npm/d61a3072-heroku-cli-plugin-run-v5-7-22-8.lock
+357 verbose cache add [ '@heroku-cli/plugin-spaces@^7.22.7', null ]
+358 verbose cache add name=undefined spec="@heroku-cli/plugin-spaces@^7.22.7" args=["@heroku-cli/plugin-spaces@^7.22.7",null]
+359 verbose parsed url { protocol: null,
+359 verbose parsed url   slashes: null,
+359 verbose parsed url   auth: null,
+359 verbose parsed url   host: null,
+359 verbose parsed url   port: null,
+359 verbose parsed url   hostname: null,
+359 verbose parsed url   hash: null,
+359 verbose parsed url   search: null,
+359 verbose parsed url   query: null,
+359 verbose parsed url   pathname: '@heroku-cli/plugin-spaces@^7.22.7',
+359 verbose parsed url   path: '@heroku-cli/plugin-spaces@^7.22.7',
+359 verbose parsed url   href: '@heroku-cli/plugin-spaces@^7.22.7' }
+360 verbose cache add name="" spec="heroku-cli/plugin-spaces@^7.22.7" args=["","heroku-cli/plugin-spaces@^7.22.7"]
+361 verbose parsed url { protocol: null,
+361 verbose parsed url   slashes: null,
+361 verbose parsed url   auth: null,
+361 verbose parsed url   host: null,
+361 verbose parsed url   port: null,
+361 verbose parsed url   hostname: null,
+361 verbose parsed url   hash: null,
+361 verbose parsed url   search: null,
+361 verbose parsed url   query: null,
+361 verbose parsed url   pathname: 'heroku-cli/plugin-spaces@^7.22.7',
+361 verbose parsed url   path: 'heroku-cli/plugin-spaces@^7.22.7',
+361 verbose parsed url   href: 'heroku-cli/plugin-spaces@^7.22.7' }
+362 verbose cache add name="heroku-cli/plugin-spaces" spec="^7.22.7" args=["heroku-cli/plugin-spaces","^7.22.7"]
+363 verbose parsed url { protocol: null,
+363 verbose parsed url   slashes: null,
+363 verbose parsed url   auth: null,
+363 verbose parsed url   host: null,
+363 verbose parsed url   port: null,
+363 verbose parsed url   hostname: null,
+363 verbose parsed url   hash: null,
+363 verbose parsed url   search: null,
+363 verbose parsed url   query: null,
+363 verbose parsed url   pathname: '^7.22.7',
+363 verbose parsed url   path: '^7.22.7',
+363 verbose parsed url   href: '^7.22.7' }
+364 verbose addNamed [ 'heroku-cli/plugin-spaces', '^7.22.7' ]
+365 verbose addNamed [ null, '>=7.22.7-0 <8.0.0-0' ]
+366 silly lockFile 0b45f225-heroku-cli-plugin-spaces-7-22-7 heroku-cli/plugin-spaces@^7.22.7
+367 verbose lock heroku-cli/plugin-spaces@^7.22.7 /home/ubuntu/.npm/0b45f225-heroku-cli-plugin-spaces-7-22-7.lock
+368 verbose cache add [ '@heroku-cli/plugin-status@^7.22.7', null ]
+369 verbose cache add name=undefined spec="@heroku-cli/plugin-status@^7.22.7" args=["@heroku-cli/plugin-status@^7.22.7",null]
+370 verbose parsed url { protocol: null,
+370 verbose parsed url   slashes: null,
+370 verbose parsed url   auth: null,
+370 verbose parsed url   host: null,
+370 verbose parsed url   port: null,
+370 verbose parsed url   hostname: null,
+370 verbose parsed url   hash: null,
+370 verbose parsed url   search: null,
+370 verbose parsed url   query: null,
+370 verbose parsed url   pathname: '@heroku-cli/plugin-status@^7.22.7',
+370 verbose parsed url   path: '@heroku-cli/plugin-status@^7.22.7',
+370 verbose parsed url   href: '@heroku-cli/plugin-status@^7.22.7' }
+371 verbose cache add name="" spec="heroku-cli/plugin-status@^7.22.7" args=["","heroku-cli/plugin-status@^7.22.7"]
+372 verbose parsed url { protocol: null,
+372 verbose parsed url   slashes: null,
+372 verbose parsed url   auth: null,
+372 verbose parsed url   host: null,
+372 verbose parsed url   port: null,
+372 verbose parsed url   hostname: null,
+372 verbose parsed url   hash: null,
+372 verbose parsed url   search: null,
+372 verbose parsed url   query: null,
+372 verbose parsed url   pathname: 'heroku-cli/plugin-status@^7.22.7',
+372 verbose parsed url   path: 'heroku-cli/plugin-status@^7.22.7',
+372 verbose parsed url   href: 'heroku-cli/plugin-status@^7.22.7' }
+373 verbose cache add name="heroku-cli/plugin-status" spec="^7.22.7" args=["heroku-cli/plugin-status","^7.22.7"]
+374 verbose parsed url { protocol: null,
+374 verbose parsed url   slashes: null,
+374 verbose parsed url   auth: null,
+374 verbose parsed url   host: null,
+374 verbose parsed url   port: null,
+374 verbose parsed url   hostname: null,
+374 verbose parsed url   hash: null,
+374 verbose parsed url   search: null,
+374 verbose parsed url   query: null,
+374 verbose parsed url   pathname: '^7.22.7',
+374 verbose parsed url   path: '^7.22.7',
+374 verbose parsed url   href: '^7.22.7' }
+375 verbose addNamed [ 'heroku-cli/plugin-status', '^7.22.7' ]
+376 verbose addNamed [ null, '>=7.22.7-0 <8.0.0-0' ]
+377 silly lockFile 095ce45b-heroku-cli-plugin-status-7-22-7 heroku-cli/plugin-status@^7.22.7
+378 verbose lock heroku-cli/plugin-status@^7.22.7 /home/ubuntu/.npm/095ce45b-heroku-cli-plugin-status-7-22-7.lock
+379 verbose cache add [ '@heroku-cli/plugin-webhooks-v5@^7.22.7', null ]
+380 verbose cache add name=undefined spec="@heroku-cli/plugin-webhooks-v5@^7.22.7" args=["@heroku-cli/plugin-webhooks-v5@^7.22.7",null]
+381 verbose parsed url { protocol: null,
+381 verbose parsed url   slashes: null,
+381 verbose parsed url   auth: null,
+381 verbose parsed url   host: null,
+381 verbose parsed url   port: null,
+381 verbose parsed url   hostname: null,
+381 verbose parsed url   hash: null,
+381 verbose parsed url   search: null,
+381 verbose parsed url   query: null,
+381 verbose parsed url   pathname: '@heroku-cli/plugin-webhooks-v5@^7.22.7',
+381 verbose parsed url   path: '@heroku-cli/plugin-webhooks-v5@^7.22.7',
+381 verbose parsed url   href: '@heroku-cli/plugin-webhooks-v5@^7.22.7' }
+382 verbose cache add name="" spec="heroku-cli/plugin-webhooks-v5@^7.22.7" args=["","heroku-cli/plugin-webhooks-v5@^7.22.7"]
+383 verbose parsed url { protocol: null,
+383 verbose parsed url   slashes: null,
+383 verbose parsed url   auth: null,
+383 verbose parsed url   host: null,
+383 verbose parsed url   port: null,
+383 verbose parsed url   hostname: null,
+383 verbose parsed url   hash: null,
+383 verbose parsed url   search: null,
+383 verbose parsed url   query: null,
+383 verbose parsed url   pathname: 'heroku-cli/plugin-webhooks-v5@^7.22.7',
+383 verbose parsed url   path: 'heroku-cli/plugin-webhooks-v5@^7.22.7',
+383 verbose parsed url   href: 'heroku-cli/plugin-webhooks-v5@^7.22.7' }
+384 verbose cache add name="heroku-cli/plugin-webhooks-v5" spec="^7.22.7" args=["heroku-cli/plugin-webhooks-v5","^7.22.7"]
+385 verbose parsed url { protocol: null,
+385 verbose parsed url   slashes: null,
+385 verbose parsed url   auth: null,
+385 verbose parsed url   host: null,
+385 verbose parsed url   port: null,
+385 verbose parsed url   hostname: null,
+385 verbose parsed url   hash: null,
+385 verbose parsed url   search: null,
+385 verbose parsed url   query: null,
+385 verbose parsed url   pathname: '^7.22.7',
+385 verbose parsed url   path: '^7.22.7',
+385 verbose parsed url   href: '^7.22.7' }
+386 verbose addNamed [ 'heroku-cli/plugin-webhooks-v5', '^7.22.7' ]
+387 verbose addNamed [ null, '>=7.22.7-0 <8.0.0-0' ]
+388 silly lockFile 7f5a5c69-ku-cli-plugin-webhooks-v5-7-22-7 heroku-cli/plugin-webhooks-v5@^7.22.7
+389 verbose lock heroku-cli/plugin-webhooks-v5@^7.22.7 /home/ubuntu/.npm/7f5a5c69-ku-cli-plugin-webhooks-v5-7-22-7.lock
+390 verbose cache add [ '@oclif/command@1.5.11', null ]
+391 verbose cache add name=undefined spec="@oclif/command@1.5.11" args=["@oclif/command@1.5.11",null]
+392 verbose parsed url { protocol: null,
+392 verbose parsed url   slashes: null,
+392 verbose parsed url   auth: null,
+392 verbose parsed url   host: null,
+392 verbose parsed url   port: null,
+392 verbose parsed url   hostname: null,
+392 verbose parsed url   hash: null,
+392 verbose parsed url   search: null,
+392 verbose parsed url   query: null,
+392 verbose parsed url   pathname: '@oclif/command@1.5.11',
+392 verbose parsed url   path: '@oclif/command@1.5.11',
+392 verbose parsed url   href: '@oclif/command@1.5.11' }
+393 verbose cache add name="" spec="oclif/command@1.5.11" args=["","oclif/command@1.5.11"]
+394 verbose parsed url { protocol: null,
+394 verbose parsed url   slashes: null,
+394 verbose parsed url   auth: null,
+394 verbose parsed url   host: null,
+394 verbose parsed url   port: null,
+394 verbose parsed url   hostname: null,
+394 verbose parsed url   hash: null,
+394 verbose parsed url   search: null,
+394 verbose parsed url   query: null,
+394 verbose parsed url   pathname: 'oclif/command@1.5.11',
+394 verbose parsed url   path: 'oclif/command@1.5.11',
+394 verbose parsed url   href: 'oclif/command@1.5.11' }
+395 verbose cache add name="oclif/command" spec="1.5.11" args=["oclif/command","1.5.11"]
+396 verbose parsed url { protocol: null,
+396 verbose parsed url   slashes: null,
+396 verbose parsed url   auth: null,
+396 verbose parsed url   host: null,
+396 verbose parsed url   port: null,
+396 verbose parsed url   hostname: null,
+396 verbose parsed url   hash: null,
+396 verbose parsed url   search: null,
+396 verbose parsed url   query: null,
+396 verbose parsed url   pathname: '1.5.11',
+396 verbose parsed url   path: '1.5.11',
+396 verbose parsed url   href: '1.5.11' }
+397 verbose addNamed [ 'oclif/command', '1.5.11' ]
+398 verbose addNamed [ '1.5.11', '1.5.11' ]
+399 silly lockFile d6ff1fe1-oclif-command-1-5-11 oclif/command@1.5.11
+400 verbose lock oclif/command@1.5.11 /home/ubuntu/.npm/d6ff1fe1-oclif-command-1-5-11.lock
+401 silly addNameRange { name: 'heroku-cli/plugin-config',
+401 silly addNameRange   range: '>=7.22.7-0 <8.0.0-0',
+401 silly addNameRange   hasData: false }
+402 verbose url raw heroku-cli/plugin-auth
+403 verbose url resolving [ 'https://registry.npmjs.org/', './heroku-cli/plugin-auth' ]
+404 verbose url resolved https://registry.npmjs.org/heroku-cli/plugin-auth
+405 info trying registry request attempt 1 at 12:16:44
+406 http GET https://registry.npmjs.org/heroku-cli/plugin-auth
+407 verbose url raw heroku-cli/plugin-autocomplete
+408 verbose url resolving [ 'https://registry.npmjs.org/',
+408 verbose url resolving   './heroku-cli/plugin-autocomplete' ]
+409 verbose url resolved https://registry.npmjs.org/heroku-cli/plugin-autocomplete
+410 info trying registry request attempt 1 at 12:16:44
+411 http GET https://registry.npmjs.org/heroku-cli/plugin-autocomplete
+412 verbose url raw heroku-cli/plugin-buildpacks
+413 verbose url resolving [ 'https://registry.npmjs.org/',
+413 verbose url resolving   './heroku-cli/plugin-buildpacks' ]
+414 verbose url resolved https://registry.npmjs.org/heroku-cli/plugin-buildpacks
+415 info trying registry request attempt 1 at 12:16:44
+416 http GET https://registry.npmjs.org/heroku-cli/plugin-buildpacks
+417 verbose url raw heroku-cli/plugin-certs
+418 verbose url resolving [ 'https://registry.npmjs.org/', './heroku-cli/plugin-certs' ]
+419 verbose url resolved https://registry.npmjs.org/heroku-cli/plugin-certs
+420 info trying registry request attempt 1 at 12:16:44
+421 http GET https://registry.npmjs.org/heroku-cli/plugin-certs
+422 verbose url raw heroku-cli/plugin-certs-v5
+423 verbose url resolving [ 'https://registry.npmjs.org/',
+423 verbose url resolving   './heroku-cli/plugin-certs-v5' ]
+424 verbose url resolved https://registry.npmjs.org/heroku-cli/plugin-certs-v5
+425 info trying registry request attempt 1 at 12:16:44
+426 http GET https://registry.npmjs.org/heroku-cli/plugin-certs-v5
+427 verbose url raw heroku-cli/plugin-ci
+428 verbose url resolving [ 'https://registry.npmjs.org/', './heroku-cli/plugin-ci' ]
+429 verbose url resolved https://registry.npmjs.org/heroku-cli/plugin-ci
+430 info trying registry request attempt 1 at 12:16:44
+431 http GET https://registry.npmjs.org/heroku-cli/plugin-ci
+432 verbose url raw heroku-cli/plugin-ci-v5
+433 verbose url resolving [ 'https://registry.npmjs.org/', './heroku-cli/plugin-ci-v5' ]
+434 verbose url resolved https://registry.npmjs.org/heroku-cli/plugin-ci-v5
+435 info trying registry request attempt 1 at 12:16:44
+436 http GET https://registry.npmjs.org/heroku-cli/plugin-ci-v5
+437 silly addNameRange { name: 'heroku-cli/plugin-container-registry-v5',
+437 silly addNameRange   range: '>=7.22.5-0 <8.0.0-0',
+437 silly addNameRange   hasData: false }
+438 silly addNameRange { name: 'heroku-cli/plugin-git',
+438 silly addNameRange   range: '>=7.22.7-0 <8.0.0-0',
+438 silly addNameRange   hasData: false }
+439 silly addNameRange { name: 'heroku-cli/plugin-local-v5',
+439 silly addNameRange   range: '>=7.22.7-0 <8.0.0-0',
+439 silly addNameRange   hasData: false }
+440 silly addNameRange { name: 'heroku-cli/plugin-oauth-v5',
+440 silly addNameRange   range: '>=7.22.5-0 <8.0.0-0',
+440 silly addNameRange   hasData: false }
+441 silly addNameRange { name: 'heroku-cli/plugin-orgs-v5',
+441 silly addNameRange   range: '>=7.22.7-0 <8.0.0-0',
+441 silly addNameRange   hasData: false }
+442 silly addNameRange { name: 'heroku-cli/plugin-pg-v5',
+442 silly addNameRange   range: '>=7.22.5-0 <8.0.0-0',
+442 silly addNameRange   hasData: false }
+443 silly addNameRange { name: 'heroku-cli/plugin-pipelines-v5',
+443 silly addNameRange   range: '>=7.22.7-0 <8.0.0-0',
+443 silly addNameRange   hasData: false }
+444 silly addNameRange { name: 'heroku-cli/plugin-ps',
+444 silly addNameRange   range: '>=7.22.7-0 <8.0.0-0',
+444 silly addNameRange   hasData: false }
+445 verbose cache add [ '@oclif/config@1.12.10', null ]
+446 verbose cache add name=undefined spec="@oclif/config@1.12.10" args=["@oclif/config@1.12.10",null]
+447 verbose parsed url { protocol: null,
+447 verbose parsed url   slashes: null,
+447 verbose parsed url   auth: null,
+447 verbose parsed url   host: null,
+447 verbose parsed url   port: null,
+447 verbose parsed url   hostname: null,
+447 verbose parsed url   hash: null,
+447 verbose parsed url   search: null,
+447 verbose parsed url   query: null,
+447 verbose parsed url   pathname: '@oclif/config@1.12.10',
+447 verbose parsed url   path: '@oclif/config@1.12.10',
+447 verbose parsed url   href: '@oclif/config@1.12.10' }
+448 verbose cache add name="" spec="oclif/config@1.12.10" args=["","oclif/config@1.12.10"]
+449 verbose parsed url { protocol: null,
+449 verbose parsed url   slashes: null,
+449 verbose parsed url   auth: null,
+449 verbose parsed url   host: null,
+449 verbose parsed url   port: null,
+449 verbose parsed url   hostname: null,
+449 verbose parsed url   hash: null,
+449 verbose parsed url   search: null,
+449 verbose parsed url   query: null,
+449 verbose parsed url   pathname: 'oclif/config@1.12.10',
+449 verbose parsed url   path: 'oclif/config@1.12.10',
+449 verbose parsed url   href: 'oclif/config@1.12.10' }
+450 verbose cache add name="oclif/config" spec="1.12.10" args=["oclif/config","1.12.10"]
+451 verbose parsed url { protocol: null,
+451 verbose parsed url   slashes: null,
+451 verbose parsed url   auth: null,
+451 verbose parsed url   host: null,
+451 verbose parsed url   port: null,
+451 verbose parsed url   hostname: null,
+451 verbose parsed url   hash: null,
+451 verbose parsed url   search: null,
+451 verbose parsed url   query: null,
+451 verbose parsed url   pathname: '1.12.10',
+451 verbose parsed url   path: '1.12.10',
+451 verbose parsed url   href: '1.12.10' }
+452 verbose addNamed [ 'oclif/config', '1.12.10' ]
+453 verbose addNamed [ '1.12.10', '1.12.10' ]
+454 silly lockFile 875dbeb5-oclif-config-1-12-10 oclif/config@1.12.10
+455 verbose lock oclif/config@1.12.10 /home/ubuntu/.npm/875dbeb5-oclif-config-1-12-10.lock
+456 verbose cache add [ '@oclif/errors@1.2.2', null ]
+457 verbose cache add name=undefined spec="@oclif/errors@1.2.2" args=["@oclif/errors@1.2.2",null]
+458 verbose parsed url { protocol: null,
+458 verbose parsed url   slashes: null,
+458 verbose parsed url   auth: null,
+458 verbose parsed url   host: null,
+458 verbose parsed url   port: null,
+458 verbose parsed url   hostname: null,
+458 verbose parsed url   hash: null,
+458 verbose parsed url   search: null,
+458 verbose parsed url   query: null,
+458 verbose parsed url   pathname: '@oclif/errors@1.2.2',
+458 verbose parsed url   path: '@oclif/errors@1.2.2',
+458 verbose parsed url   href: '@oclif/errors@1.2.2' }
+459 verbose cache add name="" spec="oclif/errors@1.2.2" args=["","oclif/errors@1.2.2"]
+460 verbose parsed url { protocol: null,
+460 verbose parsed url   slashes: null,
+460 verbose parsed url   auth: null,
+460 verbose parsed url   host: null,
+460 verbose parsed url   port: null,
+460 verbose parsed url   hostname: null,
+460 verbose parsed url   hash: null,
+460 verbose parsed url   search: null,
+460 verbose parsed url   query: null,
+460 verbose parsed url   pathname: 'oclif/errors@1.2.2',
+460 verbose parsed url   path: 'oclif/errors@1.2.2',
+460 verbose parsed url   href: 'oclif/errors@1.2.2' }
+461 verbose cache add name="oclif/errors" spec="1.2.2" args=["oclif/errors","1.2.2"]
+462 verbose parsed url { protocol: null,
+462 verbose parsed url   slashes: null,
+462 verbose parsed url   auth: null,
+462 verbose parsed url   host: null,
+462 verbose parsed url   port: null,
+462 verbose parsed url   hostname: null,
+462 verbose parsed url   hash: null,
+462 verbose parsed url   search: null,
+462 verbose parsed url   query: null,
+462 verbose parsed url   pathname: '1.2.2',
+462 verbose parsed url   path: '1.2.2',
+462 verbose parsed url   href: '1.2.2' }
+463 verbose addNamed [ 'oclif/errors', '1.2.2' ]
+464 verbose addNamed [ '1.2.2', '1.2.2' ]
+465 silly lockFile 17407930-oclif-errors-1-2-2 oclif/errors@1.2.2
+466 verbose lock oclif/errors@1.2.2 /home/ubuntu/.npm/17407930-oclif-errors-1-2-2.lock
+467 verbose cache add [ '@oclif/plugin-commands@^1.2.2', null ]
+468 verbose cache add name=undefined spec="@oclif/plugin-commands@^1.2.2" args=["@oclif/plugin-commands@^1.2.2",null]
+469 verbose parsed url { protocol: null,
+469 verbose parsed url   slashes: null,
+469 verbose parsed url   auth: null,
+469 verbose parsed url   host: null,
+469 verbose parsed url   port: null,
+469 verbose parsed url   hostname: null,
+469 verbose parsed url   hash: null,
+469 verbose parsed url   search: null,
+469 verbose parsed url   query: null,
+469 verbose parsed url   pathname: '@oclif/plugin-commands@^1.2.2',
+469 verbose parsed url   path: '@oclif/plugin-commands@^1.2.2',
+469 verbose parsed url   href: '@oclif/plugin-commands@^1.2.2' }
+470 verbose cache add name="" spec="oclif/plugin-commands@^1.2.2" args=["","oclif/plugin-commands@^1.2.2"]
+471 verbose parsed url { protocol: null,
+471 verbose parsed url   slashes: null,
+471 verbose parsed url   auth: null,
+471 verbose parsed url   host: null,
+471 verbose parsed url   port: null,
+471 verbose parsed url   hostname: null,
+471 verbose parsed url   hash: null,
+471 verbose parsed url   search: null,
+471 verbose parsed url   query: null,
+471 verbose parsed url   pathname: 'oclif/plugin-commands@^1.2.2',
+471 verbose parsed url   path: 'oclif/plugin-commands@^1.2.2',
+471 verbose parsed url   href: 'oclif/plugin-commands@^1.2.2' }
+472 verbose cache add name="oclif/plugin-commands" spec="^1.2.2" args=["oclif/plugin-commands","^1.2.2"]
+473 verbose parsed url { protocol: null,
+473 verbose parsed url   slashes: null,
+473 verbose parsed url   auth: null,
+473 verbose parsed url   host: null,
+473 verbose parsed url   port: null,
+473 verbose parsed url   hostname: null,
+473 verbose parsed url   hash: null,
+473 verbose parsed url   search: null,
+473 verbose parsed url   query: null,
+473 verbose parsed url   pathname: '^1.2.2',
+473 verbose parsed url   path: '^1.2.2',
+473 verbose parsed url   href: '^1.2.2' }
+474 verbose addNamed [ 'oclif/plugin-commands', '^1.2.2' ]
+475 verbose addNamed [ null, '>=1.2.2-0 <2.0.0-0' ]
+476 silly lockFile d18598f7-oclif-plugin-commands-1-2-2 oclif/plugin-commands@^1.2.2
+477 verbose lock oclif/plugin-commands@^1.2.2 /home/ubuntu/.npm/d18598f7-oclif-plugin-commands-1-2-2.lock
+478 verbose cache add [ '@oclif/plugin-help@2.1.6', null ]
+479 verbose cache add name=undefined spec="@oclif/plugin-help@2.1.6" args=["@oclif/plugin-help@2.1.6",null]
+480 verbose parsed url { protocol: null,
+480 verbose parsed url   slashes: null,
+480 verbose parsed url   auth: null,
+480 verbose parsed url   host: null,
+480 verbose parsed url   port: null,
+480 verbose parsed url   hostname: null,
+480 verbose parsed url   hash: null,
+480 verbose parsed url   search: null,
+480 verbose parsed url   query: null,
+480 verbose parsed url   pathname: '@oclif/plugin-help@2.1.6',
+480 verbose parsed url   path: '@oclif/plugin-help@2.1.6',
+480 verbose parsed url   href: '@oclif/plugin-help@2.1.6' }
+481 verbose cache add name="" spec="oclif/plugin-help@2.1.6" args=["","oclif/plugin-help@2.1.6"]
+482 verbose parsed url { protocol: null,
+482 verbose parsed url   slashes: null,
+482 verbose parsed url   auth: null,
+482 verbose parsed url   host: null,
+482 verbose parsed url   port: null,
+482 verbose parsed url   hostname: null,
+482 verbose parsed url   hash: null,
+482 verbose parsed url   search: null,
+482 verbose parsed url   query: null,
+482 verbose parsed url   pathname: 'oclif/plugin-help@2.1.6',
+482 verbose parsed url   path: 'oclif/plugin-help@2.1.6',
+482 verbose parsed url   href: 'oclif/plugin-help@2.1.6' }
+483 verbose cache add name="oclif/plugin-help" spec="2.1.6" args=["oclif/plugin-help","2.1.6"]
+484 verbose parsed url { protocol: null,
+484 verbose parsed url   slashes: null,
+484 verbose parsed url   auth: null,
+484 verbose parsed url   host: null,
+484 verbose parsed url   port: null,
+484 verbose parsed url   hostname: null,
+484 verbose parsed url   hash: null,
+484 verbose parsed url   search: null,
+484 verbose parsed url   query: null,
+484 verbose parsed url   pathname: '2.1.6',
+484 verbose parsed url   path: '2.1.6',
+484 verbose parsed url   href: '2.1.6' }
+485 verbose addNamed [ 'oclif/plugin-help', '2.1.6' ]
+486 verbose addNamed [ '2.1.6', '2.1.6' ]
+487 silly lockFile ed44756e-oclif-plugin-help-2-1-6 oclif/plugin-help@2.1.6
+488 verbose lock oclif/plugin-help@2.1.6 /home/ubuntu/.npm/ed44756e-oclif-plugin-help-2-1-6.lock
+489 verbose cache add [ '@oclif/plugin-legacy@1.1.4', null ]
+490 verbose cache add name=undefined spec="@oclif/plugin-legacy@1.1.4" args=["@oclif/plugin-legacy@1.1.4",null]
+491 verbose parsed url { protocol: null,
+491 verbose parsed url   slashes: null,
+491 verbose parsed url   auth: null,
+491 verbose parsed url   host: null,
+491 verbose parsed url   port: null,
+491 verbose parsed url   hostname: null,
+491 verbose parsed url   hash: null,
+491 verbose parsed url   search: null,
+491 verbose parsed url   query: null,
+491 verbose parsed url   pathname: '@oclif/plugin-legacy@1.1.4',
+491 verbose parsed url   path: '@oclif/plugin-legacy@1.1.4',
+491 verbose parsed url   href: '@oclif/plugin-legacy@1.1.4' }
+492 verbose cache add name="" spec="oclif/plugin-legacy@1.1.4" args=["","oclif/plugin-legacy@1.1.4"]
+493 verbose parsed url { protocol: null,
+493 verbose parsed url   slashes: null,
+493 verbose parsed url   auth: null,
+493 verbose parsed url   host: null,
+493 verbose parsed url   port: null,
+493 verbose parsed url   hostname: null,
+493 verbose parsed url   hash: null,
+493 verbose parsed url   search: null,
+493 verbose parsed url   query: null,
+493 verbose parsed url   pathname: 'oclif/plugin-legacy@1.1.4',
+493 verbose parsed url   path: 'oclif/plugin-legacy@1.1.4',
+493 verbose parsed url   href: 'oclif/plugin-legacy@1.1.4' }
+494 verbose cache add name="oclif/plugin-legacy" spec="1.1.4" args=["oclif/plugin-legacy","1.1.4"]
+495 verbose parsed url { protocol: null,
+495 verbose parsed url   slashes: null,
+495 verbose parsed url   auth: null,
+495 verbose parsed url   host: null,
+495 verbose parsed url   port: null,
+495 verbose parsed url   hostname: null,
+495 verbose parsed url   hash: null,
+495 verbose parsed url   search: null,
+495 verbose parsed url   query: null,
+495 verbose parsed url   pathname: '1.1.4',
+495 verbose parsed url   path: '1.1.4',
+495 verbose parsed url   href: '1.1.4' }
+496 verbose addNamed [ 'oclif/plugin-legacy', '1.1.4' ]
+497 verbose addNamed [ '1.1.4', '1.1.4' ]
+498 silly lockFile c96aede5-oclif-plugin-legacy-1-1-4 oclif/plugin-legacy@1.1.4
+499 verbose lock oclif/plugin-legacy@1.1.4 /home/ubuntu/.npm/c96aede5-oclif-plugin-legacy-1-1-4.lock
+500 verbose cache add [ '@oclif/plugin-not-found@1.2.2', null ]
+501 verbose cache add name=undefined spec="@oclif/plugin-not-found@1.2.2" args=["@oclif/plugin-not-found@1.2.2",null]
+502 verbose parsed url { protocol: null,
+502 verbose parsed url   slashes: null,
+502 verbose parsed url   auth: null,
+502 verbose parsed url   host: null,
+502 verbose parsed url   port: null,
+502 verbose parsed url   hostname: null,
+502 verbose parsed url   hash: null,
+502 verbose parsed url   search: null,
+502 verbose parsed url   query: null,
+502 verbose parsed url   pathname: '@oclif/plugin-not-found@1.2.2',
+502 verbose parsed url   path: '@oclif/plugin-not-found@1.2.2',
+502 verbose parsed url   href: '@oclif/plugin-not-found@1.2.2' }
+503 verbose cache add name="" spec="oclif/plugin-not-found@1.2.2" args=["","oclif/plugin-not-found@1.2.2"]
+504 verbose parsed url { protocol: null,
+504 verbose parsed url   slashes: null,
+504 verbose parsed url   auth: null,
+504 verbose parsed url   host: null,
+504 verbose parsed url   port: null,
+504 verbose parsed url   hostname: null,
+504 verbose parsed url   hash: null,
+504 verbose parsed url   search: null,
+504 verbose parsed url   query: null,
+504 verbose parsed url   pathname: 'oclif/plugin-not-found@1.2.2',
+504 verbose parsed url   path: 'oclif/plugin-not-found@1.2.2',
+504 verbose parsed url   href: 'oclif/plugin-not-found@1.2.2' }
+505 verbose cache add name="oclif/plugin-not-found" spec="1.2.2" args=["oclif/plugin-not-found","1.2.2"]
+506 verbose parsed url { protocol: null,
+506 verbose parsed url   slashes: null,
+506 verbose parsed url   auth: null,
+506 verbose parsed url   host: null,
+506 verbose parsed url   port: null,
+506 verbose parsed url   hostname: null,
+506 verbose parsed url   hash: null,
+506 verbose parsed url   search: null,
+506 verbose parsed url   query: null,
+506 verbose parsed url   pathname: '1.2.2',
+506 verbose parsed url   path: '1.2.2',
+506 verbose parsed url   href: '1.2.2' }
+507 verbose addNamed [ 'oclif/plugin-not-found', '1.2.2' ]
+508 verbose addNamed [ '1.2.2', '1.2.2' ]
+509 silly lockFile d9b75d16-oclif-plugin-not-found-1-2-2 oclif/plugin-not-found@1.2.2
+510 verbose lock oclif/plugin-not-found@1.2.2 /home/ubuntu/.npm/d9b75d16-oclif-plugin-not-found-1-2-2.lock
+511 verbose cache add [ '@oclif/plugin-plugins@1.7.7', null ]
+512 verbose cache add name=undefined spec="@oclif/plugin-plugins@1.7.7" args=["@oclif/plugin-plugins@1.7.7",null]
+513 verbose parsed url { protocol: null,
+513 verbose parsed url   slashes: null,
+513 verbose parsed url   auth: null,
+513 verbose parsed url   host: null,
+513 verbose parsed url   port: null,
+513 verbose parsed url   hostname: null,
+513 verbose parsed url   hash: null,
+513 verbose parsed url   search: null,
+513 verbose parsed url   query: null,
+513 verbose parsed url   pathname: '@oclif/plugin-plugins@1.7.7',
+513 verbose parsed url   path: '@oclif/plugin-plugins@1.7.7',
+513 verbose parsed url   href: '@oclif/plugin-plugins@1.7.7' }
+514 verbose cache add name="" spec="oclif/plugin-plugins@1.7.7" args=["","oclif/plugin-plugins@1.7.7"]
+515 verbose parsed url { protocol: null,
+515 verbose parsed url   slashes: null,
+515 verbose parsed url   auth: null,
+515 verbose parsed url   host: null,
+515 verbose parsed url   port: null,
+515 verbose parsed url   hostname: null,
+515 verbose parsed url   hash: null,
+515 verbose parsed url   search: null,
+515 verbose parsed url   query: null,
+515 verbose parsed url   pathname: 'oclif/plugin-plugins@1.7.7',
+515 verbose parsed url   path: 'oclif/plugin-plugins@1.7.7',
+515 verbose parsed url   href: 'oclif/plugin-plugins@1.7.7' }
+516 verbose cache add name="oclif/plugin-plugins" spec="1.7.7" args=["oclif/plugin-plugins","1.7.7"]
+517 verbose parsed url { protocol: null,
+517 verbose parsed url   slashes: null,
+517 verbose parsed url   auth: null,
+517 verbose parsed url   host: null,
+517 verbose parsed url   port: null,
+517 verbose parsed url   hostname: null,
+517 verbose parsed url   hash: null,
+517 verbose parsed url   search: null,
+517 verbose parsed url   query: null,
+517 verbose parsed url   pathname: '1.7.7',
+517 verbose parsed url   path: '1.7.7',
+517 verbose parsed url   href: '1.7.7' }
+518 verbose addNamed [ 'oclif/plugin-plugins', '1.7.7' ]
+519 verbose addNamed [ '1.7.7', '1.7.7' ]
+520 silly lockFile cb368951-oclif-plugin-plugins-1-7-7 oclif/plugin-plugins@1.7.7
+521 verbose lock oclif/plugin-plugins@1.7.7 /home/ubuntu/.npm/cb368951-oclif-plugin-plugins-1-7-7.lock
+522 verbose cache add [ '@oclif/plugin-update@1.3.9', null ]
+523 verbose cache add name=undefined spec="@oclif/plugin-update@1.3.9" args=["@oclif/plugin-update@1.3.9",null]
+524 verbose parsed url { protocol: null,
+524 verbose parsed url   slashes: null,
+524 verbose parsed url   auth: null,
+524 verbose parsed url   host: null,
+524 verbose parsed url   port: null,
+524 verbose parsed url   hostname: null,
+524 verbose parsed url   hash: null,
+524 verbose parsed url   search: null,
+524 verbose parsed url   query: null,
+524 verbose parsed url   pathname: '@oclif/plugin-update@1.3.9',
+524 verbose parsed url   path: '@oclif/plugin-update@1.3.9',
+524 verbose parsed url   href: '@oclif/plugin-update@1.3.9' }
+525 verbose cache add name="" spec="oclif/plugin-update@1.3.9" args=["","oclif/plugin-update@1.3.9"]
+526 verbose parsed url { protocol: null,
+526 verbose parsed url   slashes: null,
+526 verbose parsed url   auth: null,
+526 verbose parsed url   host: null,
+526 verbose parsed url   port: null,
+526 verbose parsed url   hostname: null,
+526 verbose parsed url   hash: null,
+526 verbose parsed url   search: null,
+526 verbose parsed url   query: null,
+526 verbose parsed url   pathname: 'oclif/plugin-update@1.3.9',
+526 verbose parsed url   path: 'oclif/plugin-update@1.3.9',
+526 verbose parsed url   href: 'oclif/plugin-update@1.3.9' }
+527 verbose cache add name="oclif/plugin-update" spec="1.3.9" args=["oclif/plugin-update","1.3.9"]
+528 verbose parsed url { protocol: null,
+528 verbose parsed url   slashes: null,
+528 verbose parsed url   auth: null,
+528 verbose parsed url   host: null,
+528 verbose parsed url   port: null,
+528 verbose parsed url   hostname: null,
+528 verbose parsed url   hash: null,
+528 verbose parsed url   search: null,
+528 verbose parsed url   query: null,
+528 verbose parsed url   pathname: '1.3.9',
+528 verbose parsed url   path: '1.3.9',
+528 verbose parsed url   href: '1.3.9' }
+529 verbose addNamed [ 'oclif/plugin-update', '1.3.9' ]
+530 verbose addNamed [ '1.3.9', '1.3.9' ]
+531 silly lockFile 5a7ccb6f-oclif-plugin-update-1-3-9 oclif/plugin-update@1.3.9
+532 verbose lock oclif/plugin-update@1.3.9 /home/ubuntu/.npm/5a7ccb6f-oclif-plugin-update-1-3-9.lock
+533 verbose cache add [ '@oclif/plugin-warn-if-update-available@1.7.0', null ]
+534 verbose cache add name=undefined spec="@oclif/plugin-warn-if-update-available@1.7.0" args=["@oclif/plugin-warn-if-update-available@1.7.0",null]
+535 verbose parsed url { protocol: null,
+535 verbose parsed url   slashes: null,
+535 verbose parsed url   auth: null,
+535 verbose parsed url   host: null,
+535 verbose parsed url   port: null,
+535 verbose parsed url   hostname: null,
+535 verbose parsed url   hash: null,
+535 verbose parsed url   search: null,
+535 verbose parsed url   query: null,
+535 verbose parsed url   pathname: '@oclif/plugin-warn-if-update-available@1.7.0',
+535 verbose parsed url   path: '@oclif/plugin-warn-if-update-available@1.7.0',
+535 verbose parsed url   href: '@oclif/plugin-warn-if-update-available@1.7.0' }
+536 verbose cache add name="" spec="oclif/plugin-warn-if-update-available@1.7.0" args=["","oclif/plugin-warn-if-update-available@1.7.0"]
+537 verbose parsed url { protocol: null,
+537 verbose parsed url   slashes: null,
+537 verbose parsed url   auth: null,
+537 verbose parsed url   host: null,
+537 verbose parsed url   port: null,
+537 verbose parsed url   hostname: null,
+537 verbose parsed url   hash: null,
+537 verbose parsed url   search: null,
+537 verbose parsed url   query: null,
+537 verbose parsed url   pathname: 'oclif/plugin-warn-if-update-available@1.7.0',
+537 verbose parsed url   path: 'oclif/plugin-warn-if-update-available@1.7.0',
+537 verbose parsed url   href: 'oclif/plugin-warn-if-update-available@1.7.0' }
+538 verbose cache add name="oclif/plugin-warn-if-update-available" spec="1.7.0" args=["oclif/plugin-warn-if-update-available","1.7.0"]
+539 verbose parsed url { protocol: null,
+539 verbose parsed url   slashes: null,
+539 verbose parsed url   auth: null,
+539 verbose parsed url   host: null,
+539 verbose parsed url   port: null,
+539 verbose parsed url   hostname: null,
+539 verbose parsed url   hash: null,
+539 verbose parsed url   search: null,
+539 verbose parsed url   query: null,
+539 verbose parsed url   pathname: '1.7.0',
+539 verbose parsed url   path: '1.7.0',
+539 verbose parsed url   href: '1.7.0' }
+540 verbose addNamed [ 'oclif/plugin-warn-if-update-available', '1.7.0' ]
+541 verbose addNamed [ '1.7.0', '1.7.0' ]
+542 silly lockFile 90715992-n-warn-if-update-available-1-7-0 oclif/plugin-warn-if-update-available@1.7.0
+543 verbose lock oclif/plugin-warn-if-update-available@1.7.0 /home/ubuntu/.npm/90715992-n-warn-if-update-available-1-7-0.lock
+544 verbose cache add [ '@oclif/plugin-which@1.0.3', null ]
+545 verbose cache add name=undefined spec="@oclif/plugin-which@1.0.3" args=["@oclif/plugin-which@1.0.3",null]
+546 verbose parsed url { protocol: null,
+546 verbose parsed url   slashes: null,
+546 verbose parsed url   auth: null,
+546 verbose parsed url   host: null,
+546 verbose parsed url   port: null,
+546 verbose parsed url   hostname: null,
+546 verbose parsed url   hash: null,
+546 verbose parsed url   search: null,
+546 verbose parsed url   query: null,
+546 verbose parsed url   pathname: '@oclif/plugin-which@1.0.3',
+546 verbose parsed url   path: '@oclif/plugin-which@1.0.3',
+546 verbose parsed url   href: '@oclif/plugin-which@1.0.3' }
+547 verbose cache add name="" spec="oclif/plugin-which@1.0.3" args=["","oclif/plugin-which@1.0.3"]
+548 verbose parsed url { protocol: null,
+548 verbose parsed url   slashes: null,
+548 verbose parsed url   auth: null,
+548 verbose parsed url   host: null,
+548 verbose parsed url   port: null,
+548 verbose parsed url   hostname: null,
+548 verbose parsed url   hash: null,
+548 verbose parsed url   search: null,
+548 verbose parsed url   query: null,
+548 verbose parsed url   pathname: 'oclif/plugin-which@1.0.3',
+548 verbose parsed url   path: 'oclif/plugin-which@1.0.3',
+548 verbose parsed url   href: 'oclif/plugin-which@1.0.3' }
+549 verbose cache add name="oclif/plugin-which" spec="1.0.3" args=["oclif/plugin-which","1.0.3"]
+550 verbose parsed url { protocol: null,
+550 verbose parsed url   slashes: null,
+550 verbose parsed url   auth: null,
+550 verbose parsed url   host: null,
+550 verbose parsed url   port: null,
+550 verbose parsed url   hostname: null,
+550 verbose parsed url   hash: null,
+550 verbose parsed url   search: null,
+550 verbose parsed url   query: null,
+550 verbose parsed url   pathname: '1.0.3',
+550 verbose parsed url   path: '1.0.3',
+550 verbose parsed url   href: '1.0.3' }
+551 verbose addNamed [ 'oclif/plugin-which', '1.0.3' ]
+552 verbose addNamed [ '1.0.3', '1.0.3' ]
+553 silly lockFile f0fee4c9-oclif-plugin-which-1-0-3 oclif/plugin-which@1.0.3
+554 verbose lock oclif/plugin-which@1.0.3 /home/ubuntu/.npm/f0fee4c9-oclif-plugin-which-1-0-3.lock
+555 verbose cache add [ 'cli-ux@4.9.3', null ]
+556 verbose cache add name=undefined spec="cli-ux@4.9.3" args=["cli-ux@4.9.3",null]
+557 verbose parsed url { protocol: null,
+557 verbose parsed url   slashes: null,
+557 verbose parsed url   auth: null,
+557 verbose parsed url   host: null,
+557 verbose parsed url   port: null,
+557 verbose parsed url   hostname: null,
+557 verbose parsed url   hash: null,
+557 verbose parsed url   search: null,
+557 verbose parsed url   query: null,
+557 verbose parsed url   pathname: 'cli-ux@4.9.3',
+557 verbose parsed url   path: 'cli-ux@4.9.3',
+557 verbose parsed url   href: 'cli-ux@4.9.3' }
+558 verbose cache add name="cli-ux" spec="4.9.3" args=["cli-ux","4.9.3"]
+559 verbose parsed url { protocol: null,
+559 verbose parsed url   slashes: null,
+559 verbose parsed url   auth: null,
+559 verbose parsed url   host: null,
+559 verbose parsed url   port: null,
+559 verbose parsed url   hostname: null,
+559 verbose parsed url   hash: null,
+559 verbose parsed url   search: null,
+559 verbose parsed url   query: null,
+559 verbose parsed url   pathname: '4.9.3',
+559 verbose parsed url   path: '4.9.3',
+559 verbose parsed url   href: '4.9.3' }
+560 verbose addNamed [ 'cli-ux', '4.9.3' ]
+561 verbose addNamed [ '4.9.3', '4.9.3' ]
+562 silly lockFile aae2549c-cli-ux-4-9-3 cli-ux@4.9.3
+563 verbose lock cli-ux@4.9.3 /home/ubuntu/.npm/aae2549c-cli-ux-4-9-3.lock
+564 verbose cache add [ 'debug@4.1.1', null ]
+565 verbose cache add name=undefined spec="debug@4.1.1" args=["debug@4.1.1",null]
+566 verbose parsed url { protocol: null,
+566 verbose parsed url   slashes: null,
+566 verbose parsed url   auth: null,
+566 verbose parsed url   host: null,
+566 verbose parsed url   port: null,
+566 verbose parsed url   hostname: null,
+566 verbose parsed url   hash: null,
+566 verbose parsed url   search: null,
+566 verbose parsed url   query: null,
+566 verbose parsed url   pathname: 'debug@4.1.1',
+566 verbose parsed url   path: 'debug@4.1.1',
+566 verbose parsed url   href: 'debug@4.1.1' }
+567 verbose cache add name="debug" spec="4.1.1" args=["debug","4.1.1"]
+568 verbose parsed url { protocol: null,
+568 verbose parsed url   slashes: null,
+568 verbose parsed url   auth: null,
+568 verbose parsed url   host: null,
+568 verbose parsed url   port: null,
+568 verbose parsed url   hostname: null,
+568 verbose parsed url   hash: null,
+568 verbose parsed url   search: null,
+568 verbose parsed url   query: null,
+568 verbose parsed url   pathname: '4.1.1',
+568 verbose parsed url   path: '4.1.1',
+568 verbose parsed url   href: '4.1.1' }
+569 verbose addNamed [ 'debug', '4.1.1' ]
+570 verbose addNamed [ '4.1.1', '4.1.1' ]
+571 silly lockFile cfdf5a13-debug-4-1-1 debug@4.1.1
+572 verbose lock debug@4.1.1 /home/ubuntu/.npm/cfdf5a13-debug-4-1-1.lock
+573 verbose cache add [ 'execa@1.0.0', null ]
+574 verbose cache add name=undefined spec="execa@1.0.0" args=["execa@1.0.0",null]
+575 verbose parsed url { protocol: null,
+575 verbose parsed url   slashes: null,
+575 verbose parsed url   auth: null,
+575 verbose parsed url   host: null,
+575 verbose parsed url   port: null,
+575 verbose parsed url   hostname: null,
+575 verbose parsed url   hash: null,
+575 verbose parsed url   search: null,
+575 verbose parsed url   query: null,
+575 verbose parsed url   pathname: 'execa@1.0.0',
+575 verbose parsed url   path: 'execa@1.0.0',
+575 verbose parsed url   href: 'execa@1.0.0' }
+576 verbose cache add name="execa" spec="1.0.0" args=["execa","1.0.0"]
+577 verbose parsed url { protocol: null,
+577 verbose parsed url   slashes: null,
+577 verbose parsed url   auth: null,
+577 verbose parsed url   host: null,
+577 verbose parsed url   port: null,
+577 verbose parsed url   hostname: null,
+577 verbose parsed url   hash: null,
+577 verbose parsed url   search: null,
+577 verbose parsed url   query: null,
+577 verbose parsed url   pathname: '1.0.0',
+577 verbose parsed url   path: '1.0.0',
+577 verbose parsed url   href: '1.0.0' }
+578 verbose addNamed [ 'execa', '1.0.0' ]
+579 verbose addNamed [ '1.0.0', '1.0.0' ]
+580 silly lockFile 31c5b0a2-execa-1-0-0 execa@1.0.0
+581 verbose lock execa@1.0.0 /home/ubuntu/.npm/31c5b0a2-execa-1-0-0.lock
+582 verbose cache add [ 'fs-extra@7.0.1', null ]
+583 verbose cache add name=undefined spec="fs-extra@7.0.1" args=["fs-extra@7.0.1",null]
+584 verbose parsed url { protocol: null,
+584 verbose parsed url   slashes: null,
+584 verbose parsed url   auth: null,
+584 verbose parsed url   host: null,
+584 verbose parsed url   port: null,
+584 verbose parsed url   hostname: null,
+584 verbose parsed url   hash: null,
+584 verbose parsed url   search: null,
+584 verbose parsed url   query: null,
+584 verbose parsed url   pathname: 'fs-extra@7.0.1',
+584 verbose parsed url   path: 'fs-extra@7.0.1',
+584 verbose parsed url   href: 'fs-extra@7.0.1' }
+585 verbose cache add name="fs-extra" spec="7.0.1" args=["fs-extra","7.0.1"]
+586 verbose parsed url { protocol: null,
+586 verbose parsed url   slashes: null,
+586 verbose parsed url   auth: null,
+586 verbose parsed url   host: null,
+586 verbose parsed url   port: null,
+586 verbose parsed url   hostname: null,
+586 verbose parsed url   hash: null,
+586 verbose parsed url   search: null,
+586 verbose parsed url   query: null,
+586 verbose parsed url   pathname: '7.0.1',
+586 verbose parsed url   path: '7.0.1',
+586 verbose parsed url   href: '7.0.1' }
+587 verbose addNamed [ 'fs-extra', '7.0.1' ]
+588 verbose addNamed [ '7.0.1', '7.0.1' ]
+589 silly lockFile f6e6367b-fs-extra-7-0-1 fs-extra@7.0.1
+590 verbose lock fs-extra@7.0.1 /home/ubuntu/.npm/f6e6367b-fs-extra-7-0-1.lock
+591 verbose cache add [ 'http-call@5.2.3', null ]
+592 verbose cache add name=undefined spec="http-call@5.2.3" args=["http-call@5.2.3",null]
+593 verbose parsed url { protocol: null,
+593 verbose parsed url   slashes: null,
+593 verbose parsed url   auth: null,
+593 verbose parsed url   host: null,
+593 verbose parsed url   port: null,
+593 verbose parsed url   hostname: null,
+593 verbose parsed url   hash: null,
+593 verbose parsed url   search: null,
+593 verbose parsed url   query: null,
+593 verbose parsed url   pathname: 'http-call@5.2.3',
+593 verbose parsed url   path: 'http-call@5.2.3',
+593 verbose parsed url   href: 'http-call@5.2.3' }
+594 verbose cache add name="http-call" spec="5.2.3" args=["http-call","5.2.3"]
+595 verbose parsed url { protocol: null,
+595 verbose parsed url   slashes: null,
+595 verbose parsed url   auth: null,
+595 verbose parsed url   host: null,
+595 verbose parsed url   port: null,
+595 verbose parsed url   hostname: null,
+595 verbose parsed url   hash: null,
+595 verbose parsed url   search: null,
+595 verbose parsed url   query: null,
+595 verbose parsed url   pathname: '5.2.3',
+595 verbose parsed url   path: '5.2.3',
+595 verbose parsed url   href: '5.2.3' }
+596 verbose addNamed [ 'http-call', '5.2.3' ]
+597 verbose addNamed [ '5.2.3', '5.2.3' ]
+598 silly lockFile 75b85095-http-call-5-2-3 http-call@5.2.3
+599 verbose lock http-call@5.2.3 /home/ubuntu/.npm/75b85095-http-call-5-2-3.lock
+600 verbose cache add [ 'netrc-parser@3.1.6', null ]
+601 verbose cache add name=undefined spec="netrc-parser@3.1.6" args=["netrc-parser@3.1.6",null]
+602 verbose parsed url { protocol: null,
+602 verbose parsed url   slashes: null,
+602 verbose parsed url   auth: null,
+602 verbose parsed url   host: null,
+602 verbose parsed url   port: null,
+602 verbose parsed url   hostname: null,
+602 verbose parsed url   hash: null,
+602 verbose parsed url   search: null,
+602 verbose parsed url   query: null,
+602 verbose parsed url   pathname: 'netrc-parser@3.1.6',
+602 verbose parsed url   path: 'netrc-parser@3.1.6',
+602 verbose parsed url   href: 'netrc-parser@3.1.6' }
+603 verbose cache add name="netrc-parser" spec="3.1.6" args=["netrc-parser","3.1.6"]
+604 verbose parsed url { protocol: null,
+604 verbose parsed url   slashes: null,
+604 verbose parsed url   auth: null,
+604 verbose parsed url   host: null,
+604 verbose parsed url   port: null,
+604 verbose parsed url   hostname: null,
+604 verbose parsed url   hash: null,
+604 verbose parsed url   search: null,
+604 verbose parsed url   query: null,
+604 verbose parsed url   pathname: '3.1.6',
+604 verbose parsed url   path: '3.1.6',
+604 verbose parsed url   href: '3.1.6' }
+605 verbose addNamed [ 'netrc-parser', '3.1.6' ]
+606 verbose addNamed [ '3.1.6', '3.1.6' ]
+607 silly lockFile fafe2342-netrc-parser-3-1-6 netrc-parser@3.1.6
+608 verbose lock netrc-parser@3.1.6 /home/ubuntu/.npm/fafe2342-netrc-parser-3-1-6.lock
+609 verbose url raw heroku-cli/plugin-config
+610 verbose url resolving [ 'https://registry.npmjs.org/', './heroku-cli/plugin-config' ]
+611 verbose url resolved https://registry.npmjs.org/heroku-cli/plugin-config
+612 info trying registry request attempt 1 at 12:16:44
+613 http GET https://registry.npmjs.org/heroku-cli/plugin-config
+614 verbose url raw heroku-cli/plugin-container-registry-v5
+615 verbose url resolving [ 'https://registry.npmjs.org/',
+615 verbose url resolving   './heroku-cli/plugin-container-registry-v5' ]
+616 verbose url resolved https://registry.npmjs.org/heroku-cli/plugin-container-registry-v5
+617 info trying registry request attempt 1 at 12:16:44
+618 http GET https://registry.npmjs.org/heroku-cli/plugin-container-registry-v5
+619 verbose url raw heroku-cli/plugin-git
+620 verbose url resolving [ 'https://registry.npmjs.org/', './heroku-cli/plugin-git' ]
+621 verbose url resolved https://registry.npmjs.org/heroku-cli/plugin-git
+622 info trying registry request attempt 1 at 12:16:44
+623 http GET https://registry.npmjs.org/heroku-cli/plugin-git
+624 verbose url raw heroku-cli/plugin-local-v5
+625 verbose url resolving [ 'https://registry.npmjs.org/',
+625 verbose url resolving   './heroku-cli/plugin-local-v5' ]
+626 verbose url resolved https://registry.npmjs.org/heroku-cli/plugin-local-v5
+627 info trying registry request attempt 1 at 12:16:44
+628 http GET https://registry.npmjs.org/heroku-cli/plugin-local-v5
+629 verbose url raw heroku-cli/plugin-oauth-v5
+630 verbose url resolving [ 'https://registry.npmjs.org/',
+630 verbose url resolving   './heroku-cli/plugin-oauth-v5' ]
+631 verbose url resolved https://registry.npmjs.org/heroku-cli/plugin-oauth-v5
+632 info trying registry request attempt 1 at 12:16:44
+633 http GET https://registry.npmjs.org/heroku-cli/plugin-oauth-v5
+634 verbose url raw heroku-cli/plugin-orgs-v5
+635 verbose url resolving [ 'https://registry.npmjs.org/', './heroku-cli/plugin-orgs-v5' ]
+636 verbose url resolved https://registry.npmjs.org/heroku-cli/plugin-orgs-v5
+637 info trying registry request attempt 1 at 12:16:44
+638 http GET https://registry.npmjs.org/heroku-cli/plugin-orgs-v5
+639 verbose url raw heroku-cli/plugin-pg-v5
+640 verbose url resolving [ 'https://registry.npmjs.org/', './heroku-cli/plugin-pg-v5' ]
+641 verbose url resolved https://registry.npmjs.org/heroku-cli/plugin-pg-v5
+642 info trying registry request attempt 1 at 12:16:44
+643 http GET https://registry.npmjs.org/heroku-cli/plugin-pg-v5
+644 verbose url raw heroku-cli/plugin-pipelines-v5
+645 verbose url resolving [ 'https://registry.npmjs.org/',
+645 verbose url resolving   './heroku-cli/plugin-pipelines-v5' ]
+646 verbose url resolved https://registry.npmjs.org/heroku-cli/plugin-pipelines-v5
+647 info trying registry request attempt 1 at 12:16:44
+648 http GET https://registry.npmjs.org/heroku-cli/plugin-pipelines-v5
+649 verbose url raw heroku-cli/plugin-ps
+650 verbose url resolving [ 'https://registry.npmjs.org/', './heroku-cli/plugin-ps' ]
+651 verbose url resolved https://registry.npmjs.org/heroku-cli/plugin-ps
+652 info trying registry request attempt 1 at 12:16:44
+653 http GET https://registry.npmjs.org/heroku-cli/plugin-ps
+654 silly addNameRange { name: 'heroku-cli/plugin-redis-v5',
+654 silly addNameRange   range: '>=7.22.8-0 <8.0.0-0',
+654 silly addNameRange   hasData: false }
+655 silly addNameRange { name: 'heroku-cli/plugin-run-v5',
+655 silly addNameRange   range: '>=7.22.8-0 <8.0.0-0',
+655 silly addNameRange   hasData: false }
+656 silly addNameRange { name: 'heroku-cli/plugin-spaces',
+656 silly addNameRange   range: '>=7.22.7-0 <8.0.0-0',
+656 silly addNameRange   hasData: false }
+657 silly addNameRange { name: 'heroku-cli/plugin-status',
+657 silly addNameRange   range: '>=7.22.7-0 <8.0.0-0',
+657 silly addNameRange   hasData: false }
+658 silly addNameRange { name: 'heroku-cli/plugin-webhooks-v5',
+658 silly addNameRange   range: '>=7.22.7-0 <8.0.0-0',
+658 silly addNameRange   hasData: false }
+659 verbose cache add [ 'semver@5.6.0', null ]
+660 verbose cache add name=undefined spec="semver@5.6.0" args=["semver@5.6.0",null]
+661 verbose parsed url { protocol: null,
+661 verbose parsed url   slashes: null,
+661 verbose parsed url   auth: null,
+661 verbose parsed url   host: null,
+661 verbose parsed url   port: null,
+661 verbose parsed url   hostname: null,
+661 verbose parsed url   hash: null,
+661 verbose parsed url   search: null,
+661 verbose parsed url   query: null,
+661 verbose parsed url   pathname: 'semver@5.6.0',
+661 verbose parsed url   path: 'semver@5.6.0',
+661 verbose parsed url   href: 'semver@5.6.0' }
+662 verbose cache add name="semver" spec="5.6.0" args=["semver","5.6.0"]
+663 verbose parsed url { protocol: null,
+663 verbose parsed url   slashes: null,
+663 verbose parsed url   auth: null,
+663 verbose parsed url   host: null,
+663 verbose parsed url   port: null,
+663 verbose parsed url   hostname: null,
+663 verbose parsed url   hash: null,
+663 verbose parsed url   search: null,
+663 verbose parsed url   query: null,
+663 verbose parsed url   pathname: '5.6.0',
+663 verbose parsed url   path: '5.6.0',
+663 verbose parsed url   href: '5.6.0' }
+664 verbose addNamed [ 'semver', '5.6.0' ]
+665 verbose addNamed [ '5.6.0', '5.6.0' ]
+666 silly lockFile 5d5cca8c-semver-5-6-0 semver@5.6.0
+667 verbose lock semver@5.6.0 /home/ubuntu/.npm/5d5cca8c-semver-5-6-0.lock
+668 verbose cache add [ 'tslib@1.9.3', null ]
+669 verbose cache add name=undefined spec="tslib@1.9.3" args=["tslib@1.9.3",null]
+670 verbose parsed url { protocol: null,
+670 verbose parsed url   slashes: null,
+670 verbose parsed url   auth: null,
+670 verbose parsed url   host: null,
+670 verbose parsed url   port: null,
+670 verbose parsed url   hostname: null,
+670 verbose parsed url   hash: null,
+670 verbose parsed url   search: null,
+670 verbose parsed url   query: null,
+670 verbose parsed url   pathname: 'tslib@1.9.3',
+670 verbose parsed url   path: 'tslib@1.9.3',
+670 verbose parsed url   href: 'tslib@1.9.3' }
+671 verbose cache add name="tslib" spec="1.9.3" args=["tslib","1.9.3"]
+672 verbose parsed url { protocol: null,
+672 verbose parsed url   slashes: null,
+672 verbose parsed url   auth: null,
+672 verbose parsed url   host: null,
+672 verbose parsed url   port: null,
+672 verbose parsed url   hostname: null,
+672 verbose parsed url   hash: null,
+672 verbose parsed url   search: null,
+672 verbose parsed url   query: null,
+672 verbose parsed url   pathname: '1.9.3',
+672 verbose parsed url   path: '1.9.3',
+672 verbose parsed url   href: '1.9.3' }
+673 verbose addNamed [ 'tslib', '1.9.3' ]
+674 verbose addNamed [ '1.9.3', '1.9.3' ]
+675 silly lockFile e6ca3ae9-tslib-1-9-3 tslib@1.9.3
+676 verbose lock tslib@1.9.3 /home/ubuntu/.npm/e6ca3ae9-tslib-1-9-3.lock
+677 verbose cache add [ 'uuid@3.3.2', null ]
+678 verbose cache add name=undefined spec="uuid@3.3.2" args=["uuid@3.3.2",null]
+679 verbose parsed url { protocol: null,
+679 verbose parsed url   slashes: null,
+679 verbose parsed url   auth: null,
+679 verbose parsed url   host: null,
+679 verbose parsed url   port: null,
+679 verbose parsed url   hostname: null,
+679 verbose parsed url   hash: null,
+679 verbose parsed url   search: null,
+679 verbose parsed url   query: null,
+679 verbose parsed url   pathname: 'uuid@3.3.2',
+679 verbose parsed url   path: 'uuid@3.3.2',
+679 verbose parsed url   href: 'uuid@3.3.2' }
+680 verbose cache add name="uuid" spec="3.3.2" args=["uuid","3.3.2"]
+681 verbose parsed url { protocol: null,
+681 verbose parsed url   slashes: null,
+681 verbose parsed url   auth: null,
+681 verbose parsed url   host: null,
+681 verbose parsed url   port: null,
+681 verbose parsed url   hostname: null,
+681 verbose parsed url   hash: null,
+681 verbose parsed url   search: null,
+681 verbose parsed url   query: null,
+681 verbose parsed url   pathname: '3.3.2',
+681 verbose parsed url   path: '3.3.2',
+681 verbose parsed url   href: '3.3.2' }
+682 verbose addNamed [ 'uuid', '3.3.2' ]
+683 verbose addNamed [ '3.3.2', '3.3.2' ]
+684 silly lockFile a079f0f1-uuid-3-3-2 uuid@3.3.2
+685 verbose lock uuid@3.3.2 /home/ubuntu/.npm/a079f0f1-uuid-3-3-2.lock
+686 verbose url raw heroku-cli/plugin-redis-v5
+687 verbose url resolving [ 'https://registry.npmjs.org/',
+687 verbose url resolving   './heroku-cli/plugin-redis-v5' ]
+688 verbose url resolved https://registry.npmjs.org/heroku-cli/plugin-redis-v5
+689 info trying registry request attempt 1 at 12:16:44
+690 http GET https://registry.npmjs.org/heroku-cli/plugin-redis-v5
+691 verbose url raw heroku-cli/plugin-run-v5
+692 verbose url resolving [ 'https://registry.npmjs.org/', './heroku-cli/plugin-run-v5' ]
+693 verbose url resolved https://registry.npmjs.org/heroku-cli/plugin-run-v5
+694 info trying registry request attempt 1 at 12:16:44
+695 http GET https://registry.npmjs.org/heroku-cli/plugin-run-v5
+696 verbose url raw heroku-cli/plugin-ps-exec/2.3.5
+697 verbose url resolving [ 'https://registry.npmjs.org/',
+697 verbose url resolving   './heroku-cli/plugin-ps-exec/2.3.5' ]
+698 verbose url resolved https://registry.npmjs.org/heroku-cli/plugin-ps-exec/2.3.5
+699 info trying registry request attempt 1 at 12:16:44
+700 http GET https://registry.npmjs.org/heroku-cli/plugin-ps-exec/2.3.5
+701 verbose url raw heroku-cli/plugin-spaces
+702 verbose url resolving [ 'https://registry.npmjs.org/', './heroku-cli/plugin-spaces' ]
+703 verbose url resolved https://registry.npmjs.org/heroku-cli/plugin-spaces
+704 info trying registry request attempt 1 at 12:16:44
+705 http GET https://registry.npmjs.org/heroku-cli/plugin-spaces
+706 verbose url raw heroku-cli/plugin-status
+707 verbose url resolving [ 'https://registry.npmjs.org/', './heroku-cli/plugin-status' ]
+708 verbose url resolved https://registry.npmjs.org/heroku-cli/plugin-status
+709 info trying registry request attempt 1 at 12:16:44
+710 http GET https://registry.npmjs.org/heroku-cli/plugin-status
+711 verbose url raw heroku-cli/plugin-webhooks-v5
+712 verbose url resolving [ 'https://registry.npmjs.org/',
+712 verbose url resolving   './heroku-cli/plugin-webhooks-v5' ]
+713 verbose url resolved https://registry.npmjs.org/heroku-cli/plugin-webhooks-v5
+714 info trying registry request attempt 1 at 12:16:44
+715 http GET https://registry.npmjs.org/heroku-cli/plugin-webhooks-v5
+716 silly addNameRange { name: 'oclif/plugin-commands',
+716 silly addNameRange   range: '>=1.2.2-0 <2.0.0-0',
+716 silly addNameRange   hasData: false }
+717 verbose url raw oclif/command/1.5.11
+718 verbose url resolving [ 'https://registry.npmjs.org/', './oclif/command/1.5.11' ]
+719 verbose url resolved https://registry.npmjs.org/oclif/command/1.5.11
+720 info trying registry request attempt 1 at 12:16:44
+721 http GET https://registry.npmjs.org/oclif/command/1.5.11
+722 verbose url raw oclif/config/1.12.10
+723 verbose url resolving [ 'https://registry.npmjs.org/', './oclif/config/1.12.10' ]
+724 verbose url resolved https://registry.npmjs.org/oclif/config/1.12.10
+725 info trying registry request attempt 1 at 12:16:44
+726 http GET https://registry.npmjs.org/oclif/config/1.12.10
+727 verbose url raw oclif/errors/1.2.2
+728 verbose url resolving [ 'https://registry.npmjs.org/', './oclif/errors/1.2.2' ]
+729 verbose url resolved https://registry.npmjs.org/oclif/errors/1.2.2
+730 info trying registry request attempt 1 at 12:16:44
+731 http GET https://registry.npmjs.org/oclif/errors/1.2.2
+732 verbose url raw oclif/plugin-commands
+733 verbose url resolving [ 'https://registry.npmjs.org/', './oclif/plugin-commands' ]
+734 verbose url resolved https://registry.npmjs.org/oclif/plugin-commands
+735 info trying registry request attempt 1 at 12:16:44
+736 http GET https://registry.npmjs.org/oclif/plugin-commands
+737 verbose url raw oclif/plugin-help/2.1.6
+738 verbose url resolving [ 'https://registry.npmjs.org/', './oclif/plugin-help/2.1.6' ]
+739 verbose url resolved https://registry.npmjs.org/oclif/plugin-help/2.1.6
+740 info trying registry request attempt 1 at 12:16:44
+741 http GET https://registry.npmjs.org/oclif/plugin-help/2.1.6
+742 verbose url raw oclif/plugin-legacy/1.1.4
+743 verbose url resolving [ 'https://registry.npmjs.org/', './oclif/plugin-legacy/1.1.4' ]
+744 verbose url resolved https://registry.npmjs.org/oclif/plugin-legacy/1.1.4
+745 info trying registry request attempt 1 at 12:16:44
+746 http GET https://registry.npmjs.org/oclif/plugin-legacy/1.1.4
+747 verbose url raw oclif/plugin-not-found/1.2.2
+748 verbose url resolving [ 'https://registry.npmjs.org/',
+748 verbose url resolving   './oclif/plugin-not-found/1.2.2' ]
+749 verbose url resolved https://registry.npmjs.org/oclif/plugin-not-found/1.2.2
+750 info trying registry request attempt 1 at 12:16:44
+751 http GET https://registry.npmjs.org/oclif/plugin-not-found/1.2.2
+752 verbose url raw oclif/plugin-plugins/1.7.7
+753 verbose url resolving [ 'https://registry.npmjs.org/',
+753 verbose url resolving   './oclif/plugin-plugins/1.7.7' ]
+754 verbose url resolved https://registry.npmjs.org/oclif/plugin-plugins/1.7.7
+755 info trying registry request attempt 1 at 12:16:44
+756 http GET https://registry.npmjs.org/oclif/plugin-plugins/1.7.7
+757 verbose url raw oclif/plugin-update/1.3.9
+758 verbose url resolving [ 'https://registry.npmjs.org/', './oclif/plugin-update/1.3.9' ]
+759 verbose url resolved https://registry.npmjs.org/oclif/plugin-update/1.3.9
+760 info trying registry request attempt 1 at 12:16:44
+761 http GET https://registry.npmjs.org/oclif/plugin-update/1.3.9
+762 verbose url raw oclif/plugin-warn-if-update-available/1.7.0
+763 verbose url resolving [ 'https://registry.npmjs.org/',
+763 verbose url resolving   './oclif/plugin-warn-if-update-available/1.7.0' ]
+764 verbose url resolved https://registry.npmjs.org/oclif/plugin-warn-if-update-available/1.7.0
+765 info trying registry request attempt 1 at 12:16:44
+766 http GET https://registry.npmjs.org/oclif/plugin-warn-if-update-available/1.7.0
+767 verbose url raw oclif/plugin-which/1.0.3
+768 verbose url resolving [ 'https://registry.npmjs.org/', './oclif/plugin-which/1.0.3' ]
+769 verbose url resolved https://registry.npmjs.org/oclif/plugin-which/1.0.3
+770 info trying registry request attempt 1 at 12:16:44
+771 http GET https://registry.npmjs.org/oclif/plugin-which/1.0.3
+772 verbose url raw cli-ux/4.9.3
+773 verbose url resolving [ 'https://registry.npmjs.org/', './cli-ux/4.9.3' ]
+774 verbose url resolved https://registry.npmjs.org/cli-ux/4.9.3
+775 info trying registry request attempt 1 at 12:16:44
+776 http GET https://registry.npmjs.org/cli-ux/4.9.3
+777 verbose url raw fs-extra/7.0.1
+778 verbose url resolving [ 'https://registry.npmjs.org/', './fs-extra/7.0.1' ]
+779 verbose url resolved https://registry.npmjs.org/fs-extra/7.0.1
+780 info trying registry request attempt 1 at 12:16:44
+781 http GET https://registry.npmjs.org/fs-extra/7.0.1
+782 verbose url raw http-call/5.2.3
+783 verbose url resolving [ 'https://registry.npmjs.org/', './http-call/5.2.3' ]
+784 verbose url resolved https://registry.npmjs.org/http-call/5.2.3
+785 info trying registry request attempt 1 at 12:16:44
+786 http GET https://registry.npmjs.org/http-call/5.2.3
+787 verbose url raw netrc-parser/3.1.6
+788 verbose url resolving [ 'https://registry.npmjs.org/', './netrc-parser/3.1.6' ]
+789 verbose url resolved https://registry.npmjs.org/netrc-parser/3.1.6
+790 info trying registry request attempt 1 at 12:16:44
+791 http GET https://registry.npmjs.org/netrc-parser/3.1.6
+792 verbose url raw debug/4.1.1
+793 verbose url resolving [ 'https://registry.npmjs.org/', './debug/4.1.1' ]
+794 verbose url resolved https://registry.npmjs.org/debug/4.1.1
+795 info trying registry request attempt 1 at 12:16:44
+796 http GET https://registry.npmjs.org/debug/4.1.1
+797 verbose url raw tslib/1.9.3
+798 verbose url resolving [ 'https://registry.npmjs.org/', './tslib/1.9.3' ]
+799 verbose url resolved https://registry.npmjs.org/tslib/1.9.3
+800 info trying registry request attempt 1 at 12:16:44
+801 http GET https://registry.npmjs.org/tslib/1.9.3
+802 verbose url raw uuid/3.3.2
+803 verbose url resolving [ 'https://registry.npmjs.org/', './uuid/3.3.2' ]
+804 verbose url resolved https://registry.npmjs.org/uuid/3.3.2
+805 info trying registry request attempt 1 at 12:16:44
+806 http GET https://registry.npmjs.org/uuid/3.3.2
+807 verbose url raw semver/5.6.0
+808 verbose url resolving [ 'https://registry.npmjs.org/', './semver/5.6.0' ]
+809 verbose url resolved https://registry.npmjs.org/semver/5.6.0
+810 info trying registry request attempt 1 at 12:16:44
+811 http GET https://registry.npmjs.org/semver/5.6.0
+812 verbose url raw execa/1.0.0
+813 verbose url resolving [ 'https://registry.npmjs.org/', './execa/1.0.0' ]
+814 verbose url resolved https://registry.npmjs.org/execa/1.0.0
+815 info trying registry request attempt 1 at 12:16:44
+816 http GET https://registry.npmjs.org/execa/1.0.0
+817 http 200 https://registry.npmjs.org/uuid/3.3.2
+818 silly registry.get cb [ 200,
+818 silly registry.get   { date: 'Wed, 10 Apr 2019 06:47:23 GMT',
+818 silly registry.get     'content-type': 'application/json',
+818 silly registry.get     'transfer-encoding': 'chunked',
+818 silly registry.get     connection: 'keep-alive',
+818 silly registry.get     'set-cookie': [ '__cfduid=db6db56aa5a3539e34b2ab46bb532d1dd1554878843; expires=Thu, 09-Apr-20 06:47:23 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+818 silly registry.get     'cf-ray': '4c52c4e11dd6a9c6-SIN',
+818 silly registry.get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+818 silly registry.get     server: 'cloudflare' } ]
+819 silly lockFile be61e8bf-ry-npmjs-org-uuid-uuid-3-3-2-tgz https://registry.npmjs.org/uuid/-/uuid-3.3.2.tgz
+820 verbose lock https://registry.npmjs.org/uuid/-/uuid-3.3.2.tgz /home/ubuntu/.npm/be61e8bf-ry-npmjs-org-uuid-uuid-3-3-2-tgz.lock
+821 verbose addRemoteTarball [ 'https://registry.npmjs.org/uuid/-/uuid-3.3.2.tgz',
+821 verbose addRemoteTarball   '1b4af4955eb3077c501c23872fc6513811587131' ]
+822 info retry fetch attempt 1 at 12:16:45
+823 verbose fetch to= /home/ubuntu/tmp/npm-11144-VAnTFhjq/1554878805725-0.578890593489632/tmp.tgz
+824 http GET https://registry.npmjs.org/uuid/-/uuid-3.3.2.tgz
+825 http 405 https://registry.npmjs.org/heroku-cli/plugin-status
+826 silly registry.get cb [ 405,
+826 silly registry.get   { date: 'Wed, 10 Apr 2019 06:47:23 GMT',
+826 silly registry.get     'content-type': 'application/json',
+826 silly registry.get     'content-length': '63',
+826 silly registry.get     connection: 'keep-alive',
+826 silly registry.get     'set-cookie': [ '__cfduid=d64782708d23cf41355076263f6ab4b451554878842; expires=Thu, 09-Apr-20 06:47:22 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+826 silly registry.get     'cf-ray': '4c52c4e0ad268aa3-BOM',
+826 silly registry.get     allow: 'PUT',
+826 silly registry.get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+826 silly registry.get     server: 'cloudflare' } ]
+827 silly addNameRange number 2 { name: 'heroku-cli/plugin-status',
+827 silly addNameRange   range: '>=7.22.7-0 <8.0.0-0',
+827 silly addNameRange   hasData: true }
+828 silly addNameRange versions [ undefined, [] ]
+829 error TypeError: Cannot read property 'latest' of undefined
+829 error     at next (/usr/share/npm/lib/cache.js:687:35)
+829 error     at /usr/share/npm/lib/cache.js:675:5
+829 error     at saved (/usr/share/npm/node_modules/npm-registry-client/lib/get.js:142:7)
+829 error     at /usr/lib/nodejs/graceful-fs/polyfills.js:133:7
+829 error     at Object.oncomplete (fs.js:107:15)
+830 error If you need help, you may report this log at:
+830 error     <http://github.com/isaacs/npm/issues>
+830 error or email it to:
+830 error     <npm-@googlegroups.com>
+831 error System Linux 3.19.0-30-generic
+832 error command "/usr/bin/nodejs" "/usr/bin/npm" "install" "-g" "heroku"
+833 error cwd /home/ubuntu/ictfullstck/node
+834 error node -v v0.10.25
+835 error npm -v 1.3.10
+836 error type non_object_property_load
+837 verbose exit [ 1, true ]
